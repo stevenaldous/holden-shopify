@@ -1,0 +1,164 @@
+.text-italic{
+  font-style: italic;
+}
+.text-justify{
+  text-align: justify;
+}
+.margin-top{
+  margin-top: 25px;
+}
+.padding-top{
+  padding-top: 25px;
+}
+.grid, .grid--rev, .grid--full, .grid-uniform {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.grid__item {
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  padding-left: 30px;
+  vertical-align: top;
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 480px){
+  ..grid__item.holden_video {
+    padding: 0 50px;
+  }
+}
+.grid__item.holden_video {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+
+}
+@media (min-width: 769px)
+.large--one-half {
+  width: 50%;
+}
+.two-columns tbody, tbody{
+  width: 100%;
+}
+.two-columns td {
+  width: 50%;
+}
+.medium_show,.large_show,table.two-columns{
+  display: none;
+}
+.small_show{
+  display: block;
+}
+.holden-video .vid-right,.holden-video .vid-left{
+  text-align: center;
+  padding-left: 0px;
+}
+.holden-video iframe{
+  max-height: 200px;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .small_show,.large_show{
+    display: none;
+  }
+  .medium_show{
+    display: block;
+  }
+  table.two-columns{
+    display: table;
+  }
+  .holden-video iframe{
+    max-height: 250px;
+  }
+}
+@media screen and (min-width: 769px){
+  .holden-video .vid-right{
+    text-align: left;
+    padding-left: 15px;
+    width: 50%;
+  }
+  .holden-video .vid-left{
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 0px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px){
+  .holden-video .vid-right,.holden-video .vid-left{
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 768px){
+  .small_show,.medium_show,table.two-columns{
+    display: none;
+  }
+  .large_show.hold-dealer{
+    display: table;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 552px){
+  .holden-video iframe{
+    max-height: 275px;
+  }
+}
+@media screen and (min-width: 552px) and (max-width: 624px){
+  .holden-video iframe{
+    max-height: 300px;
+  }
+}
+@media screen and (min-width: 624px) and (max-width: 768px){
+  .holden-video iframe{
+    max-height: 325px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 912px){
+  .holden-video iframe{
+    max-height: 225px;
+  }
+}
+@media screen and (min-width: 912px) and (max-width: 1056px){
+  .holden-video iframe{
+    max-height: 275px;
+  }
+}
+@media screen and (min-width: 1056px) and (max-width: 1300px){
+  .holden-video iframe{
+    max-height: 350px;
+  }
+}
+@media screen and (min-width: 1301px) and (max-width: 1499px){
+  .holden-video iframe{
+    max-height: 375px;
+  }
+
+}
+@media only screen and (min-width: 1500px){
+  .push--xlarge--one-sixth {
+    left: 16.666%;
+  }
+  .xlarge--two-thirds {
+    width: 66.666%;
+  }
+  .holden-video iframe{
+    max-height: 300px;
+  }
+  .hold-dealer tbody{
+    width: 80%;
+    margin-left: 10%;
+  }
+
+}
+@media only screen and (min-width: 1600px){
+  .hold-dealer tbody{
+    width: 60%;
+    margin-left: 20%;
+  }
+}
