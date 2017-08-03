@@ -26,7 +26,7 @@
 }
 
 @media screen and (min-width: 480px){
-  ..grid__item.holden_video {
+  .grid__item.holden_video {
     padding: 0 50px;
   }
 }
@@ -61,6 +61,7 @@
   width: 100%;
 }
 
+
 @media screen and (min-width: 480px) {
   .small_show,.large_show{
     display: none;
@@ -86,6 +87,12 @@
     padding-right: 15px;
     padding-left: 0px;
     width: 50%;
+  }
+  .large_show{
+    display: block;
+  }
+  .medium_show{
+    display: none;
   }
 }
 @media screen and (max-width: 768px){
@@ -161,4 +168,9 @@
     width: 60%;
     margin-left: 20%;
   }
+}
+
+
+#shopify-section-eco-headline-section .headline-section{
+  background-color: #fff;
 }
