@@ -1,28 +1,13 @@
 <div>
   {% for block in section.blocks %}
-  <div class="grid-item" {{ block.shopify_attributes }}>
+  <div class="grid-item">
     {% case block.type %}
 
-      {% when 'hero' %}
-      {% include 'snippet_hero-banner' %}
-
       {% when 'imageText' %}
-      {% include 'snippet_image-with-text-overlay-section' %}
+        {% include 'snippet_image-with-text-overlay-section' %}
 
-      {% when 'program' %}
-      {% include 'snippet_module-program' %}
-
-      {% when 'coaching' %}
-      {% include 'snippet_coaching' %}
-
-      {% when 'shop' %}
-      {% include 'snippet_shop-now' %}
-
-      {% when 'promo' %}
-      {% include 'snippet_promo' %}
-
-      {% when 'comparison' %}
-      {% include 'snippet_comparison' %}
+      {% when 'featPromo' %}
+        {% include 'snippet_featured-promotions' %}
 
     {% endcase %}
   </div>
@@ -32,140 +17,175 @@
 {% schema %}
   {
     "blocks": [
-      {
-        "type": "hero",
-        "name": "Hero Banner",
-        "settings": [
-          {
-            "id": "bannerImage",
-            "type": "image_picker",
-            "label": "Banner Image"
-          }
-        ]
-      },
+
       {
         "type": "imageText",
         "name": "Image with text overlay",
         "settings": [
           {
-            "id": "textTitle",
-            "type": "text",
-            "label": "Title"
+            "type": "checkbox",
+            "id": "image_stretch",
+            "label": "Stretch to full screen width",
+            "default": true
           },
           {
-            "id": "textSubTitle",
-            "type": "text",
-            "label": "Sub-Title"
-          },
-          {
-            "id": "textImage",
             "type": "image_picker",
-            "label": "Image"
-          }
-        ]
-      },
-      {
-        "type": "program",
-        "name": "Program Selector",
-        "settings": [
+            "id": "image",
+            "label": "Image",
+            "info": "1600 x 600px recommended"
+          },
           {
-            "id": "program",
-            "type": "radio",
-            "label": "Choose a program",
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "subtext",
+            "label": "Subheading",
+            "default": "<p></p>"
+          },
+          {
+            "type": "select",
+            "id": "text_position",
+            "label": "Text position",
             "options": [
-              {"value": "planA", "label": "Plan Type A"},
-              {"value": "planB", "label": "Plan Type B"},
-              {"value": "planC", "label": "Plan Type C"}
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "center"
+          },
+          {
+            "type": "select",
+            "id": "text_align",
+            "label": "Text alignment",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
             ]
-          }
-        ]
-      },
-      {
-        "type": "coaching",
-        "name": "Coaching",
-        "settings": [
+          },
           {
-            "id": "coachingTitle",
             "type": "text",
-            "label": "Title"
+            "id": "button_label",
+            "label": "Button label"
           },
           {
-            "id": "coachingSummary",
-            "type": "textarea",
-            "label": "Summary"
-          },
-          {
-            "id": "coachingImage",
-            "type": "image_picker",
-            "label": "Image"
-          }
-        ]
-      },
-      {
-        "type": "shop",
-        "name": "Shop Now",
-        "settings": [
-          {
-            "id": "shopNowTitle",
-            "type": "text",
-            "label": "Title",
-            "default": "What do you have to lose? Shop now."
-          },
-          {
-            "id": "shopNowHeader1",
-            "type": "text",
-            "label": "Left Header",
-            "default": "The 4-1-1"
-          }
-        ]
-      },
-      {
-        "type": "promo",
-        "name": "Promo",
-        "settings": [
-          {
-            "id": "promoTitle",
-            "type": "textarea",
-            "label": "Title"
-          },
-          {
-            "id": "promoSubtitle",
-            "type": "textarea",
-            "label": "Subtitle"
-          }
-        ]
-      },
-      {
-        "type": "comparison",
-        "name": "Compare",
-        "settings": [
-          {
-            "id": "comparisonImage",
-            "type": "image_picker",
-            "label": "image"
-          },
-          {
-            "id": "comparisonTitle",
-            "type": "text",
-            "label": "Title"
-          },
-          {
-            "id": "comparisonSummary",
-            "type": "textarea",
-            "label": "Summary"
-          },
-          {
-            "id": "comparisonButtonLink",
             "type": "url",
-            "label": "Button Link"
+            "id": "link",
+            "label": "Link"
+          }
+        ]
+      },
+      {
+        "type": "featPromo",
+        "name": "Featured promotions",
+        "settings": [
+          {
+            "type": "select",
+            "id": "featured_links_style",
+            "label": "Animation",
+            "options": [
+              {
+                "value": "",
+                "label": "None"
+              },
+              {
+                "value": "circle",
+                "label": "Circle"
+              },
+              {
+                "value": "cross",
+                "label": "Crossed Lines"
+              },
+              {
+                "value": "double_underline",
+                "label": "Double underline"
+              },
+              {
+                "value": "underline",
+                "label": "Underline"
+              }
+            ],
+            "default": "cross"
           },
           {
-            "id": "comparisonButtonText",
+            "type": "image_picker",
+            "id": "image_1",
+            "label": "Image 1",
+            "info": "420px wide minimum"
+          },
+          {
             "type": "text",
-            "label": "Button Text"
+            "id": "title_1",
+            "label": "Heading 1",
+            "default": "Promotion"
+          },
+          {
+            "type": "url",
+            "id": "link_1",
+            "label": "Link 1"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_2",
+            "label": "Image 2",
+            "info": "420px wide minimum"
+          },
+          {
+            "type": "text",
+            "id": "title_2",
+            "label": "Heading 2",
+            "default": "Promotion"
+          },
+          {
+            "type": "url",
+            "id": "link_2",
+            "label": "Link 2"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_3",
+            "label": "Image 3",
+            "info": "420px wide minimum"
+          },
+          {
+            "type": "text",
+            "id": "title_3",
+            "label": "Heading 3",
+            "default": "Promotion"
+          },
+          {
+            "type": "url",
+            "id": "link_3",
+            "label": "Link 3"
           }
         ]
       }
+
+
+
+
+
     ]
   }
 {% endschema %}
