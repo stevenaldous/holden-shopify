@@ -1,42 +1,40 @@
-<div class="featured_links_style--{{ section.blocks[1].settings.featured_links_style }} container">
+<div class="featured_links_style--{{ block.settings.featured_links_style }} container">
   <div class="sixteen columns featured_links">
     <div class="section clearfix">
-
-
         <div class="featured_links_block one-third column alpha">
-          <a href="{{ section.blocks[1].settings.link_1 }}">
-            <div class="image_container {% if section.blocks[1].settings.image_1 == nil %}onboarding{% endif %}">
-              {% if section.blocks[1].settings.image_1 != nil %}
-                <img src="{{ section.blocks[1].settings.image_1 | img_url: '1024x' }}" alt="{{ section.blocks[1].settings.image_1.alt }}" />
+          <a href="{{ block.settings.link_1 }}">
+            <div class="image_container {% if block.settings.image_1 == nil %}onboarding{% endif %}">
+              {% if block.settings.image_1 != nil %}
+                <img src="{{ block.settings.image_1 | img_url: '1024x' }}" alt="{{ block.settings.image_1.alt }}" />
               {% endif %}
-              {% if section.blocks[1].settings.title_1 != blank %}
-                <span>{{ section.blocks[1].settings.title_1 | escape }}</span>
+              {% if block.settings.title_1 != blank %}
+                <span>{{ block.settings.title_1 | escape }}</span>
               {% endif %}
             </div>
           </a>
         </div>
 
         <div class="featured_links_block one-third column">
-          <a href="{{ section.blocks[1].settings.link_2 }}">
-            <div class="image_container {% if section.blocks[1].settings.image_2 == nil %}onboarding{% endif %}">
-              {% if section.blocks[1].settings.image_2 != nil %}
-                <img src="{{ section.blocks[1].settings.image_2 | img_url: '1024x' }}" alt="{{ section.blocks[1].settings.image_2.alt }}" />
+          <a href="{{ block.settings.link_2 }}">
+            <div class="image_container {% if block.settings.image_2 == nil %}onboarding{% endif %}">
+              {% if block.settings.image_2 != nil %}
+                <img src="{{ block.settings.image_2 | img_url: '1024x' }}" alt="{{ block.settings.image_2.alt }}" />
               {% endif %}
-              {% if section.blocks[1].settings.title_2 != blank %}
-                <span>{{ section.blocks[1].settings.title_2 | escape }}</span>
+              {% if block.settings.title_2 != blank %}
+                <span>{{ block.settings.title_2 | escape }}</span>
               {% endif %}
             </div>
           </a>
         </div>
 
         <div class="featured_links_block one-third column omega">
-          <a href="{{ section.blocks[1].settings.link_3 }}">
-            <div class="image_container {% if section.blocks[1].settings.image_3 == nil %}onboarding{% endif %}">
-              {% if section.blocks[1].settings.image_3 != nil %}
-                <img src="{{ section.blocks[1].settings.image_3 | img_url: '1024x' }}" alt="{{ section.blocks[1].settings.image_3.alt }}" />
+          <a href="{{ block.settings.link_3 }}">
+            <div class="image_container {% if block.settings.image_3 == nil %}onboarding{% endif %}">
+              {% if block.settings.image_3 != nil %}
+                <img src="{{ block.settings.image_3 | img_url: '1024x' }}" alt="{{ block.settings.image_3.alt }}" />
               {% endif %}
-              {% if section.blocks[1].settings.title_3 != blank %}
-                <span>{{ section.blocks[1].settings.title_3 | escape }}</span>
+              {% if block.settings.title_3 != blank %}
+                <span>{{ block.settings.title_3 | escape }}</span>
               {% endif %}
             </div>
           </a>

@@ -9,6 +9,9 @@
       {% when 'featPromo' %}
         {% include 'snippet_featured-promotions' %}
 
+      {% when 'featText' %}
+        {% include 'snippet_featured-text' %}
+
     {% endcase %}
   </div>
   {% endfor %}
@@ -180,6 +183,76 @@
             "label": "Link 3"
           }
         ]
+      },
+      {
+        "type": "featText",
+        "name": "Rich text and image",
+        "settings": [
+      {
+        "type": "image_picker",
+        "id": "frt_image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "frt_title",
+        "label": "Heading",
+        "default": "Talk about your brand"
+      },
+      {
+        "type": "richtext",
+        "id": "frt_content",
+        "label": "Text",
+        "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+      },
+      {
+        "type": "select",
+        "id": "frt_text_size",
+        "label": "Text size",
+        "options": [
+          {
+            "value": "regular_text",
+            "label": "Regular"
+          },
+          {
+            "value": "featured_text",
+            "label": "Large"
+          }
+        ],
+        "default": "featured_text"
+      },
+      {
+        "type": "select",
+        "id": "frt_text_alignment",
+        "label": "Text alignment",
+        "options": [
+          {
+            "value": "align_left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "text",
+        "id": "frt_button_label",
+        "label": "Link label"
+      },
+      {
+        "type": "url",
+        "id": "frt_button_link",
+        "label": "Link"
+      }
+    ]
+
+
+
+
+
       }
 
 
