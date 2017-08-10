@@ -21,6 +21,9 @@
       {% when 'imgCTA' %}
         {% include 'snippet_image-text' %}
 
+      {% when 'featColl' %}
+        {% include 'snippet_featured-collection' %}
+
     {% endcase %}
   </div>
   {% endfor %}
@@ -279,6 +282,12 @@
             "type": "image_picker",
             "id": "frt_image",
             "label": "Image"
+          },
+          {
+            "type": "checkbox",
+            "id": "frt_reverse",
+            "label": "Reverse Colors",
+            "default": true
           },
           {
             "type": "text",
@@ -590,10 +599,85 @@
             "label": "Button label",
             "default": "View all"
           }
+        ]
+      },
 
 
+
+      {
+        "type": "featColl",
+        "name": "Featured Collection",
+        "settings": [
+          {
+            "type": "text",
+            "id": "ftc_title",
+            "label": "Heading",
+            "default": "Featured collection"
+          },
+          {
+            "type": "collection",
+            "id": "ftc_custompage_collection",
+            "label": "Collection"
+          },
+          {
+            "type": "select",
+            "id": "ftc_custompage_products_per_row",
+            "label": "Products per row",
+            "default": "3",
+            "options": [
+              {
+                "value": "2",
+                "label": "2"
+              },
+              {
+                "value": "3",
+                "label": "3"
+              },
+              {
+                "value": "4",
+                "label": "4"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "ftc_custompage_products_limit",
+            "label": "Limit products",
+            "default": "3",
+            "options": [
+              {
+                "value": "3",
+                "label": "3"
+              },
+              {
+                "value": "4",
+                "label": "4"
+              },
+              {
+                "value": "6",
+                "label": "6"
+              },
+              {
+                "value": "8",
+                "label": "8"
+              },
+              {
+                "value": "9",
+                "label": "9"
+              },
+              {
+                "value": "12",
+                "label": "12"
+              }
+            ]
+          }
         ]
       }
+
+
+
+
+
     ]
   }
 {% endschema %}
