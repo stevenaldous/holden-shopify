@@ -133,7 +133,7 @@
   {% endif %}
 
   <div class="container">
-    <div class="four columns logo {% if section.settings.logo_home != nil %}secondary-logo--true{% endif %}">
+    <div class="sixteen columns logo {% if section.settings.logo_home != nil %}secondary-logo--true{% endif %}">
       <a href="{{ shop.url }}" title="{{ shop.name }}">
         {% if section.settings.logo != nil or section.settings.logo_home != nil %}
           <img src="{{ section.settings.logo | img_url: '280x', scale: 2 }}" alt="{{ shop.name }}" class="primary_logo" />
@@ -147,7 +147,7 @@
       </a>
     </div>
 
-    <div class="twelve columns nav mobile_hidden">
+     <div class="sixteen columns nav mobile_hidden">
       <ul class="menu">
         {% for link in linklists[section.settings.main_linklist].links %}
           {% if linklists[link.handle] == empty %}

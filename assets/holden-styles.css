@@ -169,8 +169,40 @@
     margin-left: 20%;
   }
 }
+// #shopify-section-eco-headline-section .headline-section{
+//   background-color: #fff;
+// }
+@media screen and (min-width: 768px){
+  .logo a {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 0px;
 
+  }
+  .menu li:first-child, .menu li:nth-child(1), .menu li:nth-child(2),  .menu li:nth-child(3) {
+    float: none;
+  }
+  .nav ul.menu{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px){
+  .logo{
+    height: 0px;
+  }
+  .logo a {
+    bottom: -22px;
 
-#shopify-section-eco-headline-section .headline-section{
-  background-color: #fff;
+  }
+  .nav ul.menu{
+    margin-right: 0;
+    margin-left: 0;
+    text-align: right;
+  }
+  .menu li:first-child, .menu li:nth-child(1), .menu li:nth-child(2),  .menu li:nth-child(3) {
+    float: left;
+  }
 }
