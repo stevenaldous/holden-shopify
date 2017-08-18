@@ -210,5 +210,28 @@
   }
 }
 #password-page-bg{
-  background: url('https://cdn.shopify.com/s/files/1/0015/9582/files/landing_bg.jpg?6802943077594373576') center center;
+  background-image: url(https://cdn.shopify.com/s/files/1/0015/9582/files/landing_bg.jpg?6802943077594373576);
+}
+.password-page-row p, .password-page-row h3, .password-page-row h2, #open-me a{
+  color: #333;
+}
+.password-page-row h2{
+  margin-bottom: 0px;
+  font-size: 24px;
+}
+.password-page-row h3{
+  font-size: 20px;
+}
+.password-page-row p.password-message{
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 1.1em;
+}
+.no-bot-pad{
+  padding-bottom: 0;
+}
+.password-page-col #contact_form{
+  max-width: 450px;
+  margin: 0 auto;
 }
