@@ -205,4 +205,10 @@
   .menu li:first-child, .menu li:nth-child(1), .menu li:nth-child(2),  .menu li:nth-child(3) {
     float: left;
   }
+  .menu .dropdown ul li{
+    float: none;
+  }
+}
+#password-page-bg{
+  background: url('https://cdn.shopify.com/s/files/1/0015/9582/files/landing_bg.jpg?6802943077594373576') center center;
 }
