@@ -24,6 +24,9 @@
       {% when 'featColl' %}
         {% include 'snippet_featured-collection' %}
 
+      {% when 'featList' %}
+        {% include 'snippet_feat-list' %}
+
     {% endcase %}
   </div>
   {% endfor %}
@@ -601,9 +604,6 @@
           }
         ]
       },
-
-
-
       {
         "type": "featColl",
         "name": "Featured Collection",
@@ -672,7 +672,17 @@
             ]
           }
         ]
+      },
+      {
+        "type": "featList",
+        "name": "Featured List",
+        "settings": [
+
+        ]
       }
+
+
+
 
 
 

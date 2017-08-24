@@ -299,3 +299,59 @@
     margin-left: auto;
   }
 }
+
+/*******************************************************************************************
+*       Feat List Styles
+********************************************************************************************/
+
+.feat_list .image_container span{
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 40px;
+  text-align: center;
+  padding: 0 10px;
+  color: #fff;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+  z-index: 2;
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+  opacity: 0.9;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoo
+}
+.feat_list .one-third, .feat_list .two-third{
+  width: 100%;
+  display: inline-block;
+}
+.feat_list .two-third{
+  padding: 50px 10px 0;
+  margin-left: 0;
+}
+.feat_list .two-third p{
+  font-size: 16px;
+}
+
+@media(min-width: 768px){
+  .feat_list .one-third{
+  width: 30%;
+  }
+  .feat_list .two-third{
+    width: 60%;
+    padding: 50px 30px 0;
+  }
+  .feat_list .two-third p{
+  font-size: 20px;
+}
+}
