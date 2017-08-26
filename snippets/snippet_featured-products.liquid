@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="section clearfix">
+      <div class="sixteen columns">
+      {% if block.settings.fps_title != blank %}
+        <h2 class="title">
+          {{ block.settings.fps_title | escape }}
+        </h2>
+          <div class="section clearfix">Hello World!</div>
+      {% endif %}
+
+      <h1>{{ block.settings.fps_featured_product.title }}</h1>
+
+
+    </div>
+  </div>
+</div>

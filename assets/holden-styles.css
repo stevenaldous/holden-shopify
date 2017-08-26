@@ -336,8 +336,8 @@
   display: inline-block;
 }
 .feat_list .two-third{
-  padding: 50px 10px 0;
-  margin-left: 0;
+  padding: 0;
+  // margin-left: 0;
 }
 .feat_list .two-third p{
   font-size: 16px;
@@ -349,7 +349,7 @@
   }
   .feat_list .two-third{
     width: 60%;
-    padding: 50px 30px 0;
+    padding: 0px 25px;
   }
   .feat_list .two-third p{
   font-size: 20px;

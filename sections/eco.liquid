@@ -27,6 +27,9 @@
       {% when 'featList' %}
         {% include 'snippet_feat-list' %}
 
+      {% when 'featProds' %}
+        {% include 'snippet_feat-products' %}
+
     {% endcase %}
   </div>
   {% endfor %}
@@ -677,7 +680,239 @@
         "type": "featList",
         "name": "Featured List",
         "settings": [
-
+          {
+            "type": "image_picker",
+            "id": "fl_1_image",
+            "label": "Image #1",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_1_ovrly_txt",
+            "label": "Overlay Text #1",
+            "default": "Overlay Text #1"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_1_content",
+            "label": "Text",
+            "default": "<p>Featured List #1 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_2_image",
+            "label": "Image #2",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_2_ovrly_txt",
+            "label": "Overlay Text #2",
+            "default": "Overlay Text #2"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_2_content",
+            "label": "Text",
+            "default": "<p>Featured List #2 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_3_image",
+            "label": "Image #3",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_3_ovrly_txt",
+            "label": "Overlay Text #3",
+            "default": "Overlay Text #3"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_3_content",
+            "label": "Text",
+            "default": "<p>Featured List #3 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_4_image",
+            "label": "Image #4",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_4_ovrly_txt",
+            "label": "Overlay Text #4",
+            "default": "Overlay Text #4"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_4_content",
+            "label": "Text",
+            "default": "<p>Featured List #4 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_5_image",
+            "label": "Image #5",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_5_ovrly_txt",
+            "label": "Overlay Text #5",
+            "default": "Overlay Text #5"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_5_content",
+            "label": "Text",
+            "default": "<p>Featured List #5 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_6_image",
+            "label": "Image #6",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_6_ovrly_txt",
+            "label": "Overlay Text #6",
+            "default": "Overlay Text #6"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_6_content",
+            "label": "Text",
+            "default": "<p>Featured List #6 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_7_image",
+            "label": "Image #7",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_7_ovrly_txt",
+            "label": "Overlay Text #7",
+            "default": "Overlay Text #7"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_7_content",
+            "label": "Text",
+            "default": "<p>Featured List #7 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_8_image",
+            "label": "Image #8",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_8_ovrly_txt",
+            "label": "Overlay Text #8",
+            "default": "Overlay Text #8"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_8_content",
+            "label": "Text",
+            "default": "<p>Featured List #8 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_9_image",
+            "label": "Image #9",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_9_ovrly_txt",
+            "label": "Overlay Text #9",
+            "default": "Overlay Text #9"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_9_content",
+            "label": "Text",
+            "default": "<p>Featured List #9 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_10_image",
+            "label": "Image #10",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_10_ovrly_txt",
+            "label": "Overlay Text #10",
+            "default": "Overlay Text #10"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_10_content",
+            "label": "Text",
+            "default": "<p>Featured List #10 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_11_image",
+            "label": "Image #11",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_11_ovrly_txt",
+            "label": "Overlay Text #11",
+            "default": "Overlay Text #11"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_11_content",
+            "label": "Text",
+            "default": "<p>Featured List #11 content appears here.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "fl_12_image",
+            "label": "Image #12",
+            "info": "1600 x 600px recommended"
+          },
+          {
+            "type": "text",
+            "id": "fl_12_ovrly_txt",
+            "label": "Overlay Text #12",
+            "default": "Overlay Text #12"
+          },
+          {
+            "type": "richtext",
+            "id": "fl_12_content",
+            "label": "Text",
+            "default": "<p>Featured List #12 content appears here.</p>"
+          }
+        ]
+      },
+      {
+        "type": "featProds",
+        "name": "Featured Products",
+        "settings": [
+          {
+            "type": "text",
+            "id": "fps_title",
+            "label": "Heading",
+            "default": "Featured Products"
+          },
+          {
+            "type": "product",
+            "id": "fps_featured_product",
+            "label": "Product"
+          }
         ]
       }
 
