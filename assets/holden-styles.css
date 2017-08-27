@@ -355,3 +355,40 @@
   font-size: 20px;
 }
 }
+
+/*******************************************************************************************
+*       Feat Products Styles
+********************************************************************************************/
+
+
+.feat_products .one-third{
+  display: inline-block;
+  width: 100%;
+}
+.feat_products .one-third h3,.feat_products h3.subtitle{
+  text-align: center;
+}
+
+@media (min-width: 768px){
+  .feat_products .one-third{
+    width: 30%;
+  }
+  .feat_products .prod-row{
+    display: flex;
+    justify-content: space-between;
+  }
+  .feat_products h3.subtitle {
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
