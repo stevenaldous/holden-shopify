@@ -1,4 +1,4 @@
-{% assign instagram_count = section.settings.instagram_count | times: 5 %}
+{% assign instagram_count = section.settings.instagram_count | times: 4 %}
 <div class="instagram-feed-wrap container">
   {% if section.settings.instagram_client_id != blank %}
     <div class="section clearfix">
@@ -13,7 +13,7 @@
           {% endif %}
         </h4>
 
-      <div id="instafeed" class="js-instafeed" data-client-id="{{ section.settings.instagram_client_id | strip }}" data-count="{{ instagram_count }}"></div>
+      <div id="instafeed" class="DEVTEST js-instafeed" data-client-id="{{ section.settings.instagram_client_id | strip }}" data-count="{{ instagram_count }}"></div>
     </div>
   </div>
   {% else %}
@@ -27,7 +27,7 @@
 
         <div class="clearfix placeholder-instagram">
           {% for i in (1..instagram_count) %}
-            <div class="one-fifth column">
+            <div class="one-fourth column">
               <a href="#">
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder-svg--instagram' }}
               </a>

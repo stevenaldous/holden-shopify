@@ -11,8 +11,12 @@ sections/custom-5.liquid:
   development: 2017-08-26T18:08:56-07:00   e790c3a63b34ff400c090595ca439149
 sections/custom-6.liquid:
   development: 2017-08-26T18:09:04-07:00   e790c3a63b34ff400c090595ca439149
+sections/custom-7.liquid:
+  development: 2017-09-11T20:26:47-07:00   e790c3a63b34ff400c090595ca439149
 sections/custom.liquid:
   development: 2017-08-26T17:57:27-07:00   e790c3a63b34ff400c090595ca439149
+sections/instagram.liquid:
+  development: 2017-09-11T22:00:01-07:00   cb719f13b004b8c6ffc3a8c794104c02
 snippets/snippet_feat-list.liquid:
   development: 2017-08-26T15:51:47-07:00   199e39960200520f5b8725a4d11d347f
 snippets/snippet_featured-products.liquid:
@@ -24,12 +28,14 @@ templates/page.custom-1.liquid:
 templates/page.custom-2.liquid:
   development: 2017-08-26T18:07:47-07:00   5058f2cf3c9af1a2ffebdcf941865aa2
 templates/page.custom-3.liquid:
-  development: 2017-08-26T18:09:33-07:00   ce0c77d8a53fb0a3ad35eed34beecab7
+  development: 2017-09-11T20:41:18-07:00   01c5b228dbc26821977107fea64f198c
 templates/page.custom-4.liquid:
   development: 2017-08-26T18:09:38-07:00   2a27b89e501f6018c48de0977b0eaa89
 templates/page.custom-5.liquid:
   development: 2017-08-26T18:09:49-07:00   e07861fa1b1f16240a8ecad22d050ed9
 templates/page.custom-6.liquid:
   development: 2017-08-26T18:09:53-07:00   fb7c538764b544e0d8f860ad9d253747
+templates/page.custom-7.liquid:
+  development: 2017-09-11T20:27:21-07:00   22f217d11bb96b9327e0fcc1b66b61d4
 templates/page.dev.liquid:
   development: 2017-08-26T17:44:15-07:00   6751c046d1b73bd1f44a84de568b921a
