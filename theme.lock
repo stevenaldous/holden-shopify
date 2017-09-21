@@ -2,21 +2,25 @@
 assets/app.js.liquid:
   development: 2017-09-12T18:58:18-07:00   2bc21c5a255cc1455058ba457deabbdd
 assets/holden-styles.css:
-  development: 2017-08-26T17:41:04-07:00   daa0d277f80a8646717335c62c106ee6
+  development: 2017-09-20T21:40:00-07:00   9a117850cc1d69ffa93641170c5d990b
+assets/styles.scss.liquid:
+  development: 2017-09-20T21:35:18-07:00   1c0bb1808341eaf2bd48bff78589a53f
 sections/custom-2.liquid:
-  development: 2017-08-26T18:07:38-07:00   e790c3a63b34ff400c090595ca439149
+  development: 2017-09-18T21:45:51-07:00   b5d73ff6b33a8b5fe085545dba65eaba
 sections/custom-3.liquid:
-  development: 2017-08-26T18:08:34-07:00   e790c3a63b34ff400c090595ca439149
+  development: 2017-09-18T21:46:06-07:00   b1570aed64cb5096eabcf86b844afa16
 sections/custom-4.liquid:
-  development: 2017-08-26T18:08:44-07:00   e790c3a63b34ff400c090595ca439149
+  development: 2017-09-18T21:46:11-07:00   6dbc23f1a0474ba455bd1247503f3d25
 sections/custom-5.liquid:
-  development: 2017-08-26T18:08:56-07:00   e790c3a63b34ff400c090595ca439149
+  development: 2017-09-18T21:46:18-07:00   35a3cf7720016a9c4896cbe55b1eac85
 sections/custom-6.liquid:
-  development: 2017-08-26T18:09:04-07:00   e790c3a63b34ff400c090595ca439149
+  development: 2017-09-18T21:46:27-07:00   b9541359925ec455ef6c76b87185ff10
 sections/custom-7.liquid:
-  development: 2017-09-11T20:26:47-07:00   e790c3a63b34ff400c090595ca439149
+  development: 2017-09-18T21:46:34-07:00   0cc17622c4fdc93b63b3da7a027d53f6
+sections/custom-8.liquid:
+  development: 2017-09-20T21:44:38-07:00   0cc17622c4fdc93b63b3da7a027d53f6
 sections/custom.liquid:
-  development: 2017-08-26T17:57:27-07:00   e790c3a63b34ff400c090595ca439149
+  development: 2017-09-18T21:45:44-07:00   53d1169ea2e8d91d36f61d4b84d5225d
 sections/instagram.liquid:
   development: 2017-09-12T18:55:49-07:00   17a528e6de7a1a2d3e1d242dac16e3ed
 snippets/snippet_feat-list.liquid:
@@ -39,5 +43,7 @@ templates/page.custom-6.liquid:
   development: 2017-08-26T18:09:53-07:00   fb7c538764b544e0d8f860ad9d253747
 templates/page.custom-7.liquid:
   development: 2017-09-11T20:27:21-07:00   22f217d11bb96b9327e0fcc1b66b61d4
+templates/page.custom-8.liquid:
+  development: 2017-09-20T21:44:12-07:00   831479421cef830897008cf4a6eb0c57
 templates/page.dev.liquid:
   development: 2017-08-26T17:44:15-07:00   6751c046d1b73bd1f44a84de568b921a

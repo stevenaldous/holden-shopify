@@ -382,9 +382,25 @@
   }
 }
 
+/*******************************************************************************************
+*       Instagram Styles
+********************************************************************************************/
 
-
-
+.container .one-fourth.column{
+  position: relative;
+}
+.container .one-fourth.column a{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+#instafeed img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 
 
 
