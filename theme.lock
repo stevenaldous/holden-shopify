@@ -5,6 +5,10 @@ assets/holden-styles.css:
   development: 2017-09-20T21:40:00-07:00   9a117850cc1d69ffa93641170c5d990b
 assets/styles.scss.liquid:
   development: 2017-09-20T21:35:18-07:00   1c0bb1808341eaf2bd48bff78589a53f
+sections/collection-banner-template.liquid:
+  development: 2017-09-21T19:37:06-07:00   5b0d4184f83ac87f0b652b00bfa1f859
+sections/collection-template.liquid:
+  development: 2017-09-21T19:37:03-07:00   218247bf193b7b172446795f754716b0
 sections/custom-2.liquid:
   development: 2017-09-18T21:45:51-07:00   b5d73ff6b33a8b5fe085545dba65eaba
 sections/custom-3.liquid:
