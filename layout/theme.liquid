@@ -59,7 +59,7 @@
     {{ 'app.js' | asset_url | script_tag }}
     {{ content_for_header }}
   </head>
-  {% if template contains "index" or template contains "article"  or template contains "banner" or template contains "custom"  or template contains "dev"%}
+  {% if template contains "index" or template contains "article"  or template contains "banner" or template contains "custom"  or template contains "dev"% or template contains "collection"%}
     {% assign feature_image = true %}
   {% else %}
     {% assign feature_image = false %}

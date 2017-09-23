@@ -1,7 +1,52 @@
 {% paginate collection.products by section.settings.pagination_limit %}
-
-  <div class="sixteen columns breadcrumb clearfix">
-    <div class="eight columns breadcrumb_text alpha">
+  {% if section.settings.display_collection_banner %}
+    <div class="slider flexslider homepage_slider coll-banner {% if collection.image_stretch == false %}sixteen columns{% endif %}">
+      <ul class="slides">
+        <li>
+          {% if section.settings.link != blank %}
+            <a href="{{ section.settings.link }}">
+          {% endif %}
+          {% if collection.image != nil %}
+            <img  src="{{ collection.image | img_url: '1200x' }}"
+                  alt="{{ collection.image.alt | escape }}"
+                  class="lazyload transition-in"
+                  sizes="100vw"
+                  srcset="{{ collection.image | img_url: '480x' }} 480w,
+                          {{ collection.image | img_url: '768x' }} 768w,
+                          {{ collection.image | img_url: '1200x' }} 1200w,
+                          {{ collection.image | img_url: '2048x2048' }} 2048w"
+                   />
+          {% else %}
+            {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg placeholder-svg--banner' }}
+          {% endif %}
+          {% if section.settings.link != blank %}
+            </a>
+          {% endif %}
+          {% if collection.image != blank or section.settings.header != blank or section.settings.subtext != blank %}
+            <div class="flex-caption">
+              <div class="container">
+                <div class="columns {% if section.settings.text_position == 'left' %} seven offset-by-one {% elsif section.settings.text_position == 'right' %} seven offset-by-eight {% else %} eight offset-by-four {% endif %} align_{{ section.settings.text_align }}">
+                  {% if section.settings.header != blank %}
+                    <h1 class="headline">
+                      {{ section.settings.header }}
+                    </h1>
+                  {% endif %}
+                  {% if section.settings.subtext != blank %}
+                    <div class="subtitle">
+                      {{ section.settings.subtext }}
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        </li>
+      </ul>
+    </div>
+  {% endif; %}
+  <div class="collection-wrapper">
+    <div class="sixteen columns breadcrumb clearfix">
+      <div class="eight columns breadcrumb_text alpha">
       {% if section.settings.collection_breadcrumb %}
         <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ shop.url }}" title="{{ shop.name | escape }}" itemprop="item"><span itemprop="name">{{ 'general.breadcrumbs.home' | t }}</span></a></span>
         &nbsp; / &nbsp;
@@ -19,84 +64,86 @@
       {% else %}
         &nbsp;
       {% endif %}
+      </div>
+
+      {% if collection.handle != blank and collection.products_count > 0 %}
+        <div class="eight columns section_select omega {% if section.settings.collection_breadcrumb == false %}offset-by-eight{% endif %}">
+          {% if section.settings.collection_tags %}
+            <div class="filter_wrap">
+              {% for tag in collection.all_tags %}
+                {% if forloop.first %}
+                  <label for="tag_filter" class="inline">{{ 'collections.sorting.filter' | t }}: </label>
+                  <select name="tag_filter" id="tag_filter">
+                    <option {% unless current_tags %}selected="selected"{% endunless %} value="{% if collection.handle == "all" %}/collections/all{% else %}{{ collection.url }}{% endif %}">{{ 'collections.general.all_collection_title' | t: title: collection.title }}</option>
+                {% endif %}
+
+                {% unless tag contains 'meta-' %}
+                  <option {% if current_tags contains tag %}selected="selected"{% endif %} value="/collections/{% if collection.handle != blank %}{{ collection.handle }}{% else %}all{% endif %}/{{ tag | handleize }}">{{ tag }}</option>
+                {% endunless %}
+
+                {% if forloop.last %}
+                  </select>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if section.settings.collection_sort %}
+            <div class="filter_wrap">
+              <label for="sort-by" class="inline">{{ 'collections.sorting.title' | t }}: </label>
+              <select class="sort_by" id="sort-by" data-default-sort="{{ collection.sort_by | default: collection.default_sort_by  }}">
+                <option value="manual">{{ 'collections.sorting.featured' | t }}</option>
+                <option value="best-selling">{{ 'collections.sorting.best_selling' | t }}</option>
+                <option value="title-ascending">{{ 'collections.sorting.az' | t }}</option>
+                <option value="title-descending">{{ 'collections.sorting.za' | t }}</option>
+                <option value="price-ascending">{{ 'collections.sorting.price_ascending' | t }}</option>
+                <option value="price-descending">{{ 'collections.sorting.price_descending' | t }}</option>
+                <option value="created-descending">{{ 'collections.sorting.date_descending' | t }}</option>
+                <option value="created-ascending">{{ 'collections.sorting.date_ascending' | t }}</option>
+              </select>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
 
-    {% if collection.handle != blank and collection.products_count > 0 %}
-      <div class="eight columns section_select omega {% if section.settings.collection_breadcrumb == false %}offset-by-eight{% endif %}">
-        {% if section.settings.collection_tags %}
-          <div class="filter_wrap">
-            {% for tag in collection.all_tags %}
-              {% if forloop.first %}
-                <label for="tag_filter" class="inline">{{ 'collections.sorting.filter' | t }}: </label>
-                <select name="tag_filter" id="tag_filter">
-                  <option {% unless current_tags %}selected="selected"{% endunless %} value="{% if collection.handle == "all" %}/collections/all{% else %}{{ collection.url }}{% endif %}">{{ 'collections.general.all_collection_title' | t: title: collection.title }}</option>
-              {% endif %}
-
-              {% unless tag contains 'meta-' %}
-                <option {% if current_tags contains tag %}selected="selected"{% endif %} value="/collections/{% if collection.handle != blank %}{{ collection.handle }}{% else %}all{% endif %}/{{ tag | handleize }}">{{ tag }}</option>
-              {% endunless %}
-
-              {% if forloop.last %}
-                </select>
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% endif %}
-
-        {% if section.settings.collection_sort %}
-          <div class="filter_wrap">
-            <label for="sort-by" class="inline">{{ 'collections.sorting.title' | t }}: </label>
-            <select class="sort_by" id="sort-by" data-default-sort="{{ collection.sort_by | default: collection.default_sort_by  }}">
-              <option value="manual">{{ 'collections.sorting.featured' | t }}</option>
-              <option value="best-selling">{{ 'collections.sorting.best_selling' | t }}</option>
-              <option value="title-ascending">{{ 'collections.sorting.az' | t }}</option>
-              <option value="title-descending">{{ 'collections.sorting.za' | t }}</option>
-              <option value="price-ascending">{{ 'collections.sorting.price_ascending' | t }}</option>
-              <option value="price-descending">{{ 'collections.sorting.price_descending' | t }}</option>
-              <option value="created-descending">{{ 'collections.sorting.date_descending' | t }}</option>
-              <option value="created-ascending">{{ 'collections.sorting.date_ascending' | t }}</option>
-            </select>
-          </div>
-        {% endif %}
-      </div>
-    {% endif %}
-  </div>
-
-  {% comment %}Check to see if sidebar should be enabled{% endcomment %}
-  {% if section.blocks.size > 0 %}
-    {% assign sidebar = true %}
-  {% else %}
-    {% assign sidebar = false %}
-  {% endif %}
-
-  {% if sidebar %}
-    {% include 'sidebar' %}
-    <div class="twelve columns">
-  {% else %}
-    <div class="sixteen columns">
-  {% endif %}
-
-    {% if section.settings.display_collection_title %}
-      <h1>{{ collection.title }}</h1>
-    {% endif %}
-
-    {% if collection.description != blank %}
-      <div class="section clearfix collection_description">
-        {{ collection.description }}
-      </div>
-    {% endif %}
-
-    {% if collection.products.size == 0 %}
-      <div class="section clearfix">
-        <p class="quote">{{ 'collections.general.no_matches' | t }}</p>
-      </div>
+    {% comment %}Check to see if sidebar should be enabled{% endcomment %}
+    {% if section.blocks.size > 0 %}
+      {% assign sidebar = true %}
     {% else %}
-      {% assign products = collection.products %}
-      {% assign products_per_row = section.settings.products_per_row %}
-      {% include 'product-loop', sidebar: sidebar %}
+      {% assign sidebar = false %}
     {% endif %}
 
-    {% include 'pagination', sidebar: sidebar %}
+    {% if sidebar %}
+      {% include 'sidebar' %}
+      <div class="twelve columns">
+    {% else %}
+      <div class="sixteen columns">
+    {% endif %}
+
+      {% if section.settings.display_collection_title %}
+        <h1>{{ collection.title }}</h1>
+      {% endif %}
+
+
+      {% if section.settings.display_collection_description and collection.description != blank %}
+        <div class="section clearfix collection_description">
+          {{ collection.description }}
+        </div>
+      {% endif %}
+
+      {% if collection.products.size == 0 %}
+        <div class="section clearfix">
+          <p class="quote">{{ 'collections.general.no_matches' | t }}</p>
+        </div>
+      {% else %}
+        {% assign products = collection.products %}
+        {% assign products_per_row = section.settings.products_per_row %}
+        {% include 'product-loop', sidebar: sidebar %}
+      {% endif %}
+
+      {% include 'pagination', sidebar: sidebar %}
+    </div>
   </div>
 {% endpaginate %}
 
@@ -106,7 +153,62 @@
   "name": "Collection",
   "class": "collection-template-section",
   "settings": [
-    {
+      {
+        "type": "checkbox",
+        "id": "display_collection_banner",
+        "label": "Show collection banner",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "subtext",
+        "label": "Subheading"
+      },
+      {
+        "type": "select",
+        "id": "text_position",
+        "label": "Text position",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "select",
+        "id": "text_align",
+        "label": "Text alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
       "type": "select",
       "id": "products_per_row",
       "label": "Products per row",
@@ -154,6 +256,12 @@
       "type": "checkbox",
       "id": "display_collection_title",
       "label": "Show collection title",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "display_collection_description",
+      "label": "Show collection description",
       "default": true
     },
     {

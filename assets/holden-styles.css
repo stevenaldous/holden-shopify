@@ -403,6 +403,18 @@
 }
 
 
+/*******************************************************************************************
+*       Collection Full-width Banner
+********************************************************************************************/
+.collection-wrapper {
+  position: relative;
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0px;
+}
+.coll-banner {
+  max-height: 500px
+}
 
 
 
