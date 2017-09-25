@@ -2,7 +2,7 @@
 assets/app.js.liquid:
   development: 2017-09-12T18:58:18-07:00   2bc21c5a255cc1455058ba457deabbdd
 assets/holden-styles.css:
-  development: 2017-09-22T19:58:23-07:00   56b0d676a1a51f13a57479c622cbad4f
+  development: 2017-09-24T21:30:13-07:00   73b5d4763f3c7da81d03be38e7f1b3f3
 assets/styles.scss.liquid:
   development: 2017-09-20T21:35:18-07:00   1c0bb1808341eaf2bd48bff78589a53f
 layout/theme.liquid:
@@ -10,7 +10,7 @@ layout/theme.liquid:
 sections/collection-banner-template.liquid:
   development: 2017-09-21T19:37:06-07:00   5b0d4184f83ac87f0b652b00bfa1f859
 sections/collection-template.liquid:
-  development: 2017-09-22T20:09:50-07:00   80b9301d806506e55c8e1db71c2ca95d
+  development: 2017-09-24T21:19:35-07:00   035b61645536e228ab646ea9d0f16453
 sections/custom-2.liquid:
   development: 2017-09-18T21:45:51-07:00   b5d73ff6b33a8b5fe085545dba65eaba
 sections/custom-3.liquid:
@@ -30,7 +30,7 @@ sections/custom.liquid:
 sections/instagram.liquid:
   development: 2017-09-12T18:55:49-07:00   17a528e6de7a1a2d3e1d242dac16e3ed
 snippets/snippet_feat-list.liquid:
-  development: 2017-08-26T15:51:47-07:00   199e39960200520f5b8725a4d11d347f
+  development: 2017-09-24T20:50:14-07:00   1591cd347e7a92a163f2ef32f132fa18
 snippets/snippet_featured-products.liquid:
   development: 2017-08-26T17:39:12-07:00   08600aa0a687e394aa7af97ea606e6d0
 snippets/snippet_image-text.liquid:

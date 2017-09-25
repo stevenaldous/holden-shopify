@@ -342,6 +342,9 @@
 .feat_list .two-third p{
   font-size: 16px;
 }
+.feat_list .feat-rel{
+  position: relative;
+}
 
 @media(min-width: 768px){
   .feat_list .one-third{
@@ -352,9 +355,27 @@
     padding: 0px 25px;
   }
   .feat_list .two-third p{
-  font-size: 20px;
+    font-size: 20px;
+  }
+  .feat_list .two-third.column.omega {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  .feat_list .text_wrapper{
+    position: relative;
+    height: 100%;
+  }
+  .feat_list .text_wrapper .text_container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
 }
-}
+
+
 
 /*******************************************************************************************
 *       Feat Products Styles
@@ -406,17 +427,19 @@
 /*******************************************************************************************
 *       Collection Full-width Banner
 ********************************************************************************************/
-.collection-wrapper {
-  position: relative;
-    width: 1200px;
-    margin: 0px auto;
-    padding: 0px;
-}
 .coll-banner {
-  max-height: 500px
+  position: relative;
+  max-height: 500px;
 }
 
+.coll-banner .flex-active-slide {
+  max-height: 500px;
+}
 
-
+.coll-banner img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 
 
