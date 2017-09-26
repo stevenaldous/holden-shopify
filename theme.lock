@@ -2,7 +2,7 @@
 assets/app.js.liquid:
   development: 2017-09-12T18:58:18-07:00   2bc21c5a255cc1455058ba457deabbdd
 assets/holden-styles.css:
-  development: 2017-09-24T21:30:13-07:00   73b5d4763f3c7da81d03be38e7f1b3f3
+  development: 2017-09-26T15:10:07-07:00   2a7cab172e087665058cb31605a82841
 assets/styles.scss.liquid:
   development: 2017-09-20T21:35:18-07:00   1c0bb1808341eaf2bd48bff78589a53f
 layout/theme.liquid:
