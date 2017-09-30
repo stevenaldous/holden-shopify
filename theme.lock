@@ -37,6 +37,8 @@ assets/crimson.jpg:
   development: 2017-09-20T22:08:27-07:00   5701227a666efa99b13a74d24b9c1ef1
 assets/crimson.png:
   development: 2017-09-20T22:15:56-07:00   2610f9500e49b6193f87c0fbfc1066e2
+assets/custom.js:
+  development: 2017-09-30T16:06:20-07:00   385feb4adcc838a386cf6980263da835
 assets/earth.jpg:
   development: 2017-09-20T22:08:05-07:00   84b97f833f40a7bca375b587d9c2b68d
 assets/earth.png:
@@ -118,7 +120,7 @@ config/settings_schema.json:
 layout/theme-old.liquid:
   development: 2017-09-30T14:43:11-07:00   90bdbac9700594ba8db7898e6812b730
 layout/theme.liquid:
-  development: 2017-09-25T17:52:14-07:00   1881fafaad247dbfbe2b019eaf968be4
+  development: 2017-09-30T15:58:42-07:00   cfc258d9c40f1d173a152e80a95c4ea9
 locales/de.json:
   development: 2017-06-25T17:03:08-07:00   ed3dc7aa1b6e8ecd067d1ddc4cc4ca5d
 locales/en.default.json:

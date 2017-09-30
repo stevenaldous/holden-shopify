@@ -64,6 +64,7 @@
     {% endif %}
 
     {{ 'app.js' | asset_url | script_tag }}
+    {{ "custom.js" | asset_url | script_tag }}
     {{ content_for_header }}
   </head>
   {% if template contains "index" or template contains "article"  or template contains "banner" or template contains "custom"  or template contains "dev"% or template contains "collection"%}
@@ -114,5 +115,30 @@
         <script id="dsq-count-scr" src="//{{ settings.disqus_shortname }}.disqus.com/count.js" async></script>
       {% endif %}
     {% endif %}
+<!-- Google Code for Remarketing Tag -->
+
+<script type="text/javascript">
+  var google_tag_params = {
+    ecomm_prodid: '{{ product.id }}',
+    ecomm_pagetype: '{{ template }}',
+    ecomm_totalvalue: '{{ product.price_min | money_without_currency }}',
+  };
+</script>
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 973684403;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/973684403/?guid=ON&amp;script=0"/>
+  </div>
+</noscript>
+
+
   </body>
 </html>
