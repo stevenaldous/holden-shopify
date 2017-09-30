@@ -373,6 +373,10 @@
     transform: translateY(-50%);
   }
 
+  .featured_links .image_container {
+    min-height: 250px;
+  }
+
 }
 
 
@@ -444,5 +448,6 @@
   width: 100%;
   height: 100%;
 }
+
 
 
