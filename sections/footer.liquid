@@ -37,6 +37,9 @@
           <h6 class="title">{{ linklists[block.settings.footer_linklist].title }}</h6>
           <ul class="footer_menu">
             {% for link in linklists[block.settings.footer_linklist].links %}
+              {%- comment %}<locksmith:e788>{% endcomment -%}
+                {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklists[block.settings.footer_linklist].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}
+              {%- comment %}</locksmith:e788>{% endcomment -%}
               <li><a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>
             {% endfor %}
           </ul>

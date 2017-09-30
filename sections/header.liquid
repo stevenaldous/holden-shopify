@@ -19,18 +19,27 @@
   <div id="nav">
     <ul>
       {% for link in linklists[section.settings.main_linklist].links %}
+        {%- comment %}<locksmith:fc8a>{% endcomment -%}
+          {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklists[section.settings.main_linklist].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}
+        {%- comment %}</locksmith:fc8a>{% endcomment -%}
         {% if linklists[link.handle] == empty %}
           <li {% if link.active %}class="Selected"{% endif %}><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% else %}
           <li {% if link.active %}class="Selected"{% endif %}><span>{{ link.title }}</span>
             <ul>
               {% for link in linklists[link.handle].links %}
+                {%- comment %}<locksmith:3461>{% endcomment -%}
+                  {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklists[link.handle].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}
+                {%- comment %}</locksmith:3461>{% endcomment -%}
                 {% if linklists[link.handle] == empty %}
                   <li {% if link.active %}class="Selected"{% endif %}><a href="{{ link.url }}">{{ link.title }}</a></li>
                 {% else %}
                 <li {% if link.active %}class="Selected"{% endif %}><span>{{ link.title }}</span>
                   <ul>
                     {% for link in linklists[link.handle].links %}
+                      {%- comment %}<locksmith:3257>{% endcomment -%}
+                        {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklists[link.handle].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}
+                      {%- comment %}</locksmith:3257>{% endcomment -%}
                       <li {% if link.active %}class="Selected"{% endif %}><a href="{{ link.url }}">{{ link.title }}</a></li>
                     {% endfor %}
                   </ul>
@@ -150,6 +159,9 @@
      <div class="sixteen columns nav mobile_hidden">
       <ul class="menu">
         {% for link in linklists[section.settings.main_linklist].links %}
+          {%- comment %}<locksmith:03a0>{% endcomment -%}
+            {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklists[section.settings.main_linklist].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}
+          {%- comment %}</locksmith:03a0>{% endcomment -%}
           {% if linklists[link.handle] == empty %}
             <li><a href="{{ link.url }}" class="top-link {% if link.active %}active{% endif %}">{{ link.title }}</a></li>
           {% else %}
@@ -159,26 +171,38 @@
             {% endcomment %}
             {% assign count = 0 %}
             {% for link in linklists[link.handle].links %}
+              {%- comment %}<locksmith:190c>{% endcomment -%}
+                {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklists[link.handle].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}
+              {%- comment %}</locksmith:190c>{% endcomment -%}
               {% capture count %}{{ count }}*{% endcapture %}
               {% if linklists[link.handle] != empty %}
                 {% for link in linklists[link.handle].links %}
+                  {%- comment %}<locksmith:c5c0>{% endcomment -%}
+                    {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklists[link.handle].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}
+                  {%- comment %}</locksmith:c5c0>{% endcomment -%}
                   {% capture count %}{{ count }}*{% endcapture %}
                 {% endfor %}
               {% endif %}
             {% endfor %}
             {% assign column_threshold = section.settings.dropdown_column_links | minus: 0 %}
 
-            <li><a href="{{ link.url }}" class="sub-menu {% if link.active %}active{% endif %} {% for link in linklists[link.handle].links %}{% for l in linklists[link.handle].links %} {% if l.active %}active{% endif %}{% endfor %}{% if link.active %}active{% endif %}{% endfor %}">{{ link.title }}
+            <li><a href="{{ link.url }}" class="sub-menu {% if link.active %}active{% endif %} {% for link in linklists[link.handle].links %}{%- comment %}<locksmith:cbcb>{% endcomment -%}{% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklists[link.handle].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}{%- comment %}</locksmith:cbcb>{% endcomment -%}{% for l in linklists[link.handle].links %} {%- comment %}<locksmith:a49e>{% endcomment -%}{% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: l, locksmith_subject_parent: linklists[link.handle].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}{%- comment %}</locksmith:a49e>{% endcomment -%} {% if l.active %}active{% endif %}{% endfor %}{% if link.active %}active{% endif %}{% endfor %}">{{ link.title }}
               <span class="arrow">▾</span></a>
               <div class="dropdown {% if count.size > column_threshold %}dropdown-wide{% endif %}">
                 <ul>
                   {% assign count = 0 %}
                   {% assign split = false %}
                   {% for link in linklists[link.handle].links %}
+                    {%- comment %}<locksmith:66de>{% endcomment -%}
+                      {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklists[link.handle].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}
+                    {%- comment %}</locksmith:66de>{% endcomment -%}
                     {% capture count %}{{ count }}*{% endcapture %}
                     <li><a href="{{ link.url }}">{{ link.title }}</a></li>
                     {% if linklists[link.handle] != empty %}
                       {% for link in linklists[link.handle].links %}
+                        {%- comment %}<locksmith:3694>{% endcomment -%}
+                          {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklists[link.handle].links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}
+                        {%- comment %}</locksmith:3694>{% endcomment -%}
                         {% capture count %}{{ count }}*{% endcapture %}
                         <li>
                           <a class="sub-link" href="{{ link.url }}">{{ link.title }}</a>

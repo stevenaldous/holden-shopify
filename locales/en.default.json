@@ -151,7 +151,7 @@
       "from": "from"
     },
     "product": {
-      "sold_out": "Sold Out",
+      "sold_out": "In Stock Soon",
       "unavailable": "Unavailable",
       "quantity": "Qty",
       "add_to_cart": "Add to Cart",

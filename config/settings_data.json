@@ -2031,15 +2031,15 @@
   },
   "current": {
     "logo_color": "#333333",
-    "logo_color_home": "#333333",
+    "logo_color_home": "#ffffff",
     "regular_color": "#383838",
     "featured_text": "#ffffff",
-    "shop_home_page_content_text_color": "#ffffff",
+    "shop_home_page_content_text_color": "#000000",
     "banner_color": "#ffffff",
     "testimonial_header_color": "#ffffff",
     "headline_color": "#333333",
     "headline_footer_text_color": "#333333",
-    "sale_color": "#bf8328",
+    "sale_color": "#da1a1a",
     "was_price_color": "#16161d",
     "product_label_color": "#404040",
     "sub_footer_text_color": "#363636",
@@ -2047,29 +2047,29 @@
     "newsletter_popup_color": "#363636",
     "nav_color": "#333333",
     "nav_color_home": "#333333",
-    "nav_color_hover": "#bf8328",
-    "nav_active_color": "#bf8328",
+    "nav_color_hover": "#fc4c02",
+    "nav_active_color": "#fc4c02",
     "link_color": "#373b59",
-    "link_hover_color": "#bf8328",
+    "link_hover_color": "#000000",
     "sidebar_nav_color": "#373b59",
-    "sidebar_nav_color_hover": "#bf8328",
-    "sub_footer_link_color": "#ffffff",
-    "sub_footer_link_color_hover": "#bf8328",
+    "sidebar_nav_color_hover": "#fc4c02",
+    "sub_footer_link_color": "#4d4d5c",
+    "sub_footer_link_color_hover": "#000000",
     "footer_link_color": "#ffffff",
-    "footer_link_color_hover": "#bf8328",
-    "btn_color": "#bf8328",
+    "footer_link_color_hover": "#fc4c02",
+    "btn_color": "#808080",
     "btn_hover_color": "#16161d",
     "btn_text_color": "#ffffff",
-    "cart_button_background": "rgba(0,0,0,0)",
-    "testimonial_btn_color": "#bf8328",
+    "cart_button_background": "#ffffff",
+    "testimonial_btn_color": "#000000",
     "promo_bg_color": "#16161d",
     "promo_text_color": "#ffffff",
     "table_styles_enabled": true,
     "border_color": "#bbbbbb",
-    "headline_border_color": "#bbbbbb",
+    "headline_border_color": "#808080",
     "sub_footer_border_color": "#f1f1f1",
-    "sale_banner_color": "#bf8328",
-    "new_banner_color": "#bf8328",
+    "sale_banner_color": "#dc2f2f",
+    "new_banner_color": "#55c0d4",
     "shop_bg_color": "#ffffff",
     "custom_bg": "",
     "repeat_bg": "no-repeat",
@@ -2079,12 +2079,12 @@
     "header_bg_color": "#ffffff",
     "transparent_header": false,
     "dropdown_background_color": "#ffffff",
-    "shop_home_page_content_bg_color": "#1b1819",
+    "shop_home_page_content_bg_color": "#ffffff",
     "testimonial_content_bg_color": "#ffffff",
     "testimonial_bg_color": "#ffffff",
     "testimonial_bg": "",
     "sub_footer_color": "#f5f5f5",
-    "footer_color": "#fafafa",
+    "footer_color": "#000000",
     "newsletter_popup_background_color": "#ffffff",
     "newsletter_bg": "",
     "newsletter_bg_stretched": false,
@@ -2095,43 +2095,43 @@
     "password_page_background_color": "#000000",
     "password-page-background": "",
     "pagework_page_bg_stretched": true,
-    "logo_font": "'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif",
-    "logo_weight": "bold",
+    "logo_font": "Google_Raleway",
+    "logo_weight": "normal",
     "logo_font_style": "none",
     "logo_font_size": "26",
-    "headline_font": "'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif",
-    "headline_weight": "bold",
-    "headline_font_style": "none",
-    "headline_font_size": "38",
+    "headline_font": "Google_Lato",
+    "headline_weight": "normal",
+    "headline_font_style": "uppercase",
+    "headline_font_size": "24",
     "headline_letter_spacing": "2",
-    "headline_border": "underline",
-    "nav_font": "Google_Lato",
+    "headline_border": "double",
+    "nav_font": "'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
     "nav_weight": "bold",
-    "nav_font_style": "none",
-    "nav_font_size": "14",
+    "nav_font_style": "uppercase",
+    "nav_font_size": "13",
     "nav_letter_spacing": "1",
     "nav_shadow": false,
-    "regular_font": "Google_Lato",
-    "regular_weight": "lighter",
+    "regular_font": "'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "regular_weight": "normal",
     "regular_font_style": "none",
-    "regular_font_size": "14",
-    "footer_font_size": "14",
-    "button_weight": "bold",
+    "regular_font_size": "15",
+    "footer_font_size": "13",
+    "button_weight": "normal",
     "button_font_style": "uppercase",
-    "button_font_size": "13",
-    "slideshow_headline_size": "38",
-    "slideshow_headline_weight": "normal",
-    "slideshow_subtitle_font": "Google_Lato",
-    "slideshow_subtitle_weight": "normal",
+    "button_font_size": "14",
+    "slideshow_headline_size": "24",
+    "slideshow_headline_weight": "bold",
+    "slideshow_subtitle_font": "Google_Raleway",
+    "slideshow_subtitle_weight": "bold",
     "slideshow_subtitle_font_style": "uppercase",
     "slideshow_subtitle_font_text": "normal",
     "slideshow_subtitle_size": "14",
-    "slideshow_shadow": false,
+    "slideshow_shadow": true,
     "mobile_products_per_row": "2",
     "align_height": false,
     "collection_height": "200",
     "collection_price_position": "left",
-    "collection_secondary_image": false,
+    "collection_secondary_image": true,
     "display_vendor_collection": false,
     "sale_banner_enabled": true,
     "collection_swatches": true,
@@ -2147,7 +2147,7 @@
     "quick_shop_enabled": true,
     "product_description_position": "top",
     "description_words": "30",
-    "enable_shopify_review_comments": false,
+    "enable_shopify_review_comments": true,
     "review_position": "bottom",
     "enable_shopify_collection_badges": false,
     "enable_shopify_product_badges": false,
@@ -2164,10 +2164,10 @@
     "default_currency": "USD",
     "search_option": "products",
     "newsletter_popup": true,
-    "newsletter_popup_mobile": false,
-    "newsletter_popup_title": "Sign up today!",
-    "newsletter_popup_image": "",
-    "newsletter_popup_text": "",
+    "newsletter_popup_mobile": true,
+    "newsletter_popup_title": "",
+    "newsletter_popup_image": "shopify:\/\/shop_images\/Pop_Up_Image-1.jpg",
+    "newsletter_popup_text": "<p>DONT WORRY, BE HAPPY:<\/p>\n<p>We promise to only send you cool stuff, so let's stay in touch.<\/p>",
     "newsletter_popup_link": "",
     "newsletter_popup_form": true,
     "newsletter_popup_seconds": "10",
@@ -2175,30 +2175,30 @@
     "newsletter_popup_max_width": "500",
     "display_first_name": true,
     "display_last_name": false,
-    "twitter_link": "https:\/\/twitter.com\/outofthesandbox",
-    "facebook_link": "https:\/\/www.facebook.com\/ootsb",
+    "twitter_link": "https:\/\/www.facebook.com\/holden-outerwear-108716275829688\/timeline\/",
+    "facebook_link": "https:\/\/www.facebook.com\/holden-outerwear-108716275829688\/timeline\/",
     "google_link": "",
     "youtube_link": "",
     "vimeo_link": "",
     "pinterest_link": "",
     "tumblr_link": "",
-    "instagram_link": "https:\/\/instagram.com\/shopify",
+    "instagram_link": "https:\/\/www.instagram.com\/holden_outerwear\/",
     "snapchat_link": "",
-    "houzz_link": "https:\/\/www.houzz.com\/shopify",
+    "houzz_link": "",
     "linkedin_link": "",
     "email_link": "",
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/Favicon.png",
     "checkout_header_image": "",
-    "checkout_logo_image": "",
-    "checkout_logo_position": "left",
-    "checkout_logo_size": "medium",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Slug_Med.jpg",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
     "checkout_body_background_image": "",
     "checkout_body_background_color": "#fff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_image": "",
     "checkout_sidebar_background_color": "#fafafa",
-    "checkout_heading_font": "Helvetica Neue",
-    "checkout_body_font": "Helvetica Neue",
+    "checkout_heading_font": "Raleway",
+    "checkout_body_font": "Lato",
     "checkout_accent_color": "#55c0d4",
     "checkout_button_color": "#fc4c02",
     "checkout_error_color": "#ff6d6d",
@@ -2344,19 +2344,19 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo": "shopify:\/\/shop_images\/HoldenLogoBlk_560_8ee5acae-da31-408e-9c33-3b183d8243b2.png",
           "logo_home": "",
           "logo_mobile": "",
-          "logo_width": "280",
+          "logo_width": "210",
           "main_linklist": "main-menu",
           "dropdown_column_links": "10",
           "logo_top_padding": "0",
           "menu_top_padding": "0",
           "content_top_padding": "120",
-          "social_icons_enabled": true,
+          "social_icons_enabled": false,
           "search_enabled": true,
           "fixed_header": true,
-          "behind_menu": true,
+          "behind_menu": false,
           "announcement_message": "",
           "announcement_link": ""
         }
@@ -2364,66 +2364,45 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "1483145098754": {
-            "type": "newsletter_form",
+          "1505779285802": {
+            "type": "link_list",
             "settings": {
+              "footer_linklist": "main-menu",
+              "social_icons_footer": false
+            }
+          },
+          "1505779303671": {
+            "type": "link_list",
+            "settings": {
+              "footer_linklist": "about-us",
               "social_icons_footer": false
             }
           },
           "1483145109201": {
             "type": "text",
             "settings": {
-              "title": "Title",
-              "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "title": "Lets stay connected",
+              "content": "<p>Follow us for more on&nbsp;what we are about. We'd love to see what you're up to as well.<\/p>",
               "social_icons_footer": true
+            }
+          },
+          "1483145098754": {
+            "type": "newsletter_form",
+            "settings": {
+              "social_icons_footer": false
             }
           }
         },
         "block_order": [
-          "1483145098754",
-          "1483145109201"
+          "1505779285802",
+          "1505779303671",
+          "1483145109201",
+          "1483145098754"
         ],
         "settings": {
           "copyright_text": "",
-          "display_designed_by": true,
+          "display_designed_by": false,
           "display_payment_methods": true
-        }
-      },
-      "1482527947534": {
-        "type": "collection-list",
-        "blocks": {
-          "1482527947534-0": {
-            "type": "collection",
-            "settings": {
-              "feature_collection": "",
-              "image": ""
-            }
-          },
-          "1482527947534-1": {
-            "type": "collection",
-            "settings": {
-              "feature_collection": "",
-              "image": ""
-            }
-          },
-          "1482527947534-2": {
-            "type": "collection",
-            "settings": {
-              "feature_collection": "",
-              "image": ""
-            }
-          }
-        },
-        "block_order": [
-          "1482527947534-0",
-          "1482527947534-1",
-          "1482527947534-2"
-        ],
-        "settings": {
-          "title": "Collection list",
-          "frontpage_collections_per_row": "3",
-          "frontpage_collections_title": true,
-          "collection_count": true
         }
       },
       "1482527966363": {
@@ -2432,31 +2411,57 @@
           "1482527966363-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/F1617_Web_Lookbook1_fed11937-acac-4367-85d4-2787858ba83c.jpg",
-              "title": "For A Life Well Led",
-              "subtext": "<p>Style \/\/ Craftsmanship \/\/ Quality \/\/&nbsp;Love \/\/ Since 2002<\/p>",
+              "image": "shopify:\/\/shop_images\/Collection_Video-1.jpg",
+              "title": "The 2017 Collection Video Lookbook",
+              "subtext": "<p>EXPLORING THE 395<\/p>",
+              "text_position": "center",
+              "text_align": "center",
+              "button_label": "Scroll down to WATCH",
+              "link": ""
+            }
+          },
+          "1500750640529": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/15_Years-1_bf22e519-a146-4f14-9807-b5a590354c59.jpg",
+              "title": "We're celebrating:",
+              "subtext": "<p>15 years of timeless style<\/p>",
               "text_position": "left",
-              "text_align": "left",
+              "text_align": "center",
               "button_label": "",
               "link": ""
             }
           },
-          "1482527966363-1": {
+          "1504136267170": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Eco_image_web_16-24.jpg",
-              "title": "",
-              "subtext": "",
+              "image": "shopify:\/\/shop_images\/Eco-1_copy_3ab74654-f94b-46b2-86a1-91384ae5c4a5.jpg",
+              "title": "We're Committed to reducing our environmental impact",
+              "subtext": "<p><\/p>",
               "text_position": "center",
-              "text_align": "left",
+              "text_align": "center",
+              "button_label": "LEARN MORE",
+              "link": "shopify:\/\/pages\/2018-dev-page-one"
+            }
+          },
+          "1504136286735": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/TOP_SLIDER_layering-1.jpg",
+              "title": "Layering for those colder months",
+              "subtext": "<p><\/p>",
+              "text_position": "right",
+              "text_align": "center",
               "button_label": "",
               "link": ""
             }
           }
         },
         "block_order": [
+          "1500750640529",
+          "1504136267170",
           "1482527966363-0",
-          "1482527966363-1"
+          "1504136286735"
         ],
         "settings": {
           "slideshow_animation": "fade",
@@ -2466,35 +2471,35 @@
       "1482528346380": {
         "type": "featured-promotions",
         "blocks": {
+          "1482528346380-2": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Featured_Promo_DOwn-1_2c58397d-7e7d-4312-aab6-993085775d37.jpg",
+              "title": "TRACKABLE DOWN",
+              "link": "shopify:\/\/pages\/2018-dev-page-six"
+            }
+          },
           "1482528346380-0": {
             "type": "promotion",
             "settings": {
-              "image": "",
-              "title": "Promotion",
-              "link": ""
+              "image": "shopify:\/\/shop_images\/Featured_Promo_Eco-1_21ee148d-069d-42e8-acba-80a3340fa488.jpg",
+              "title": "ECO FRIENDLIER",
+              "link": "shopify:\/\/pages\/2018-dev-page-one"
             }
           },
           "1482528346380-1": {
             "type": "promotion",
             "settings": {
-              "image": "",
-              "title": "Promotion",
-              "link": ""
-            }
-          },
-          "1482528346380-2": {
-            "type": "promotion",
-            "settings": {
-              "image": "",
-              "title": "Promotion",
-              "link": ""
+              "image": "shopify:\/\/shop_images\/Featured_Promo_Fishtail-1_716d07bb-2bb6-4af6-af5d-97dd1b25f8e7.jpg",
+              "title": "FISHTAIL JACKETS",
+              "link": "shopify:\/\/pages\/2018-dev-page-two"
             }
           }
         },
         "block_order": [
+          "1482528346380-2",
           "1482528346380-0",
-          "1482528346380-1",
-          "1482528346380-2"
+          "1482528346380-1"
         ],
         "settings": {
           "featured_links_style": "cross",
@@ -2505,9 +2510,9 @@
         "type": "featured-text",
         "settings": {
           "image": "",
-          "title": "Talk about your brand",
-          "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-          "text_size": "featured_text",
+          "title": "Bringing Style to the harshest environments",
+          "content": "<p>STYLE, FUNCTION, ECO SINCE 2002<\/p>",
+          "text_size": "regular_text",
           "text_alignment": "center",
           "button_label": "",
           "button_link": ""
@@ -2516,10 +2521,10 @@
       "1482528454151": {
         "type": "featured-collection",
         "settings": {
-          "title": "Featured collection",
-          "frontpage_collection": "mens-jackets",
-          "frontpage_products_per_row": "3",
-          "frontpage_products_limit": "12",
+          "title": "NEW ARRIVALS",
+          "frontpage_collection": "new-arrivals",
+          "frontpage_products_per_row": "4",
+          "frontpage_products_limit": "4",
           "toggle": false
         }
       },
@@ -2527,52 +2532,19 @@
         "type": "image-with-text-overlay-section",
         "settings": {
           "image_stretch": true,
-          "image": "",
-          "title": "Image",
-          "subtext": "<p><\/p>",
-          "text_position": "center",
+          "image": "shopify:\/\/shop_images\/Homepage_Eco-1.jpg",
+          "title": "ECO FRIENDLIER",
+          "subtext": "<p>We are committed to leaving our home better than we found it<\/p>",
+          "text_position": "right",
           "text_align": "center",
-          "button_label": "",
-          "link": ""
-        }
-      },
-      "1482528552957": {
-        "type": "image-text",
-        "blocks": {
-          "1482528552957-0": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "title": "Image",
-              "text": "<p>Promotion description appears here.<\/p>",
-              "link": "",
-              "button_label": "View all"
-            }
-          },
-          "1482528552957-1": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "title": "Image",
-              "text": "<p>Promotion description appears here.<\/p>",
-              "link": "",
-              "button_label": "View all"
-            }
-          }
-        },
-        "block_order": [
-          "1482528552957-0",
-          "1482528552957-1"
-        ],
-        "settings": {
-          "grid_layout": "standard",
-          "frontpage_text_align": "left"
+          "button_label": "LEARN MORE",
+          "link": "shopify:\/\/pages\/2018-dev-page-one"
         }
       },
       "1482528636777": {
         "type": "instagram",
         "settings": {
-          "instagram_client_id": "",
+          "instagram_client_id": "7429683.d90570a.833ce87a41ec479facf5d85db3fda6d6",
           "title": "Instagram",
           "instagram_count": "1"
         }
@@ -2580,10 +2552,16 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
-          "products_per_row": "2",
-          "pagination_limit": "24",
+          "display_collection_banner": true,
+          "display_banner_title": false,
+          "display_banner_description": true,
+          "text_position": "right",
+          "text_align": "center",
+          "products_per_row": "3",
+          "pagination_limit": "36",
           "collection_breadcrumb": true,
           "display_collection_title": true,
+          "display_collection_description": false,
           "collection_sort": false,
           "collection_tags": false,
           "toggle": false
@@ -2601,22 +2579,881 @@
           "display_social_buttons": true,
           "display_related_products": true,
           "products_per_row": "2",
-          "product_description_position": "top",
+          "product_description_position": "bottom",
+          "product_images_position": "left",
+          "set_product_height": true,
+          "product_height": "500",
+          "toggle": false
+        }
+      },
+      "1500752035890": {
+        "type": "video",
+        "settings": {
+          "source": "vimeo",
+          "aspect_ratio": "4:3",
+          "autoplay": false,
+          "autoloop": false,
+          "video_dark_overlay": false,
+          "video": "https:\/\/vimeo.com\/233380203",
+          "mp4": "",
+          "ogv": "",
+          "image": "shopify:\/\/shop_images\/Road_trip_Video-1-2_e8ac704a-5df2-4073-986e-bcc8b4946c1a.jpg",
+          "display_text_over_video": false,
+          "title": "The 2017 Collection Video Lookbook",
+          "subtext": "<p>EXPLORING the 395<\/p>",
+          "text_position": "right",
+          "text_align": "center",
+          "button_label": "WATCH NOW",
+          "link": ""
+        }
+      },
+      "1500752829494": {
+        "type": "image-text",
+        "blocks": {
+          "1500752829494-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Collections_Mens-1.jpg",
+              "title": "Men's Collection",
+              "text": "",
+              "link": "shopify:\/\/collections\/mens-fw-17-18-collection",
+              "button_label": "SHOP NOW"
+            }
+          },
+          "1500752829494-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Collections_Womens-FNL.jpg",
+              "title": "Women's Collection",
+              "text": "",
+              "link": "shopify:\/\/collections\/womens-fw-17-18-collection",
+              "button_label": "SHOP NOW"
+            }
+          }
+        },
+        "block_order": [
+          "1500752829494-1",
+          "1500752829494-0"
+        ],
+        "settings": {
+          "grid_layout": "full-width",
+          "frontpage_text_align": "center"
+        }
+      },
+      "custom": {
+        "type": "custom",
+        "blocks": {
+          "1503795086315": {
+            "type": "imageText",
+            "settings": {
+              "image_stretch": true,
+              "image": "shopify:\/\/shop_images\/Eco_Page_Header-1_b1377050-6e3d-449a-bfb2-8c4f12f54ac2.jpg",
+              "title": "ECO FRIENDLIER",
+              "subtext": "Let's leave our home better than we found it",
+              "text_position": "center",
+              "text_align": "center",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "1503795128601": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": false,
+              "frt_title": "",
+              "frt_content": "HOLDEN’S UNWAVERING DEDICATION TO CLEANER MANUFACTURING THROUGH FABRICS AND PROCESSES THAT REQUIRE LESS WATER, REDUCE WASTE, AND SAVE ENERGY IS AT THE CORE OF OUR EXISTENCE AND HAS BEEN SINCE DAY ONE. WE WILL LEAD IN ECO-INITIATIVES, CHANGING THE WAY OUR INDUSTRY THINKS AND ACTS.",
+              "frt_text_size": "regular_text",
+              "frt_text_alignment": "center",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1503795472629": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "",
+              "image_1": "shopify:\/\/shop_images\/ECO_page_Recy_Mat-1.jpg",
+              "title_1": "RECYCLED MATERIALS",
+              "link_1": "",
+              "image_2": "shopify:\/\/shop_images\/ECO_page_Packaging-1.jpg",
+              "title_2": "BIODEGRADABLE PACKAGING",
+              "link_2": "",
+              "image_3": "shopify:\/\/shop_images\/Eco_page_DOwn-1-3_71a2d1ef-e8dd-446f-be46-4f5f3df8a0c4.jpg",
+              "title_3": "RESPONSIBLE DOWN",
+              "link_3": ""
+            }
+          },
+          "1503795565835": {
+            "type": "imageText2",
+            "settings": {
+              "sec_image_stretch": true,
+              "sec_image": "shopify:\/\/shop_images\/ECO_Page_Middle_Image-1.jpg",
+              "sec_title": "Learn More about our ECO PROCESSES AND PARTNERS",
+              "sec_subtext": "",
+              "sec_text_position": "center",
+              "sec_text_align": "center",
+              "sec_button_label": "",
+              "sec_link": ""
+            }
+          },
+          "1503795721263": {
+            "type": "featList",
+            "settings": {
+              "fl_1_image": "shopify:\/\/shop_images\/ECO_page_Feather_Down-1_8e4cde59-04d1-4ca0-bfac-5016fb5d21d1.jpg",
+              "fl_1_ovrly_txt": "TRACKABLE DOWN",
+              "fl_1_content": "HOLDEN PARTNERED WITH ALLIED FEATHER AND DOWN® TO SUPPLY THE RESPONSIBLE DOWN USED IN OUR WARMEST INSULATED STYLES. ALLIED FEATHER AND DOWN’S® SOURCING AND PROPRIETARY CLEANING TECHNOLOGIES ALLOW US TO OFFER PREMIUM WARMTH AND DURABILITY IN A SUSTAINABLE PROCESS- GIVING HOLDEN CUSTOMERS PEACE OF MIND, NO MATTER HOW COLD IT GETS. LOG ON TO WWW.TRACKMYDOWN.COM AND ENTER LOT#: 0814L16FN1329\n\n￼",
+              "fl_2_image": "shopify:\/\/shop_images\/Scafe.jpg",
+              "fl_2_ovrly_txt": "",
+              "fl_2_content": "S. CAFÉ® FABRIC COMBINES UPCYCLED COFFEE GROUNDS INTO YARN TO CREATE A SUPER SOFT MÉLANGE FABRIC THAT OFFERS UP TO 200% FASTER DRYING TIME COMPARED TO COTTON, ANTI-MICROBIAL ODOR CONTROL, UV PROTECTION, AND COOL TOUCH PROPERTIES.  S.CAFÉ ® IS THE LINING FABRIC FOUND IN HOLDEN JACKETS.",
+              "fl_3_image": "shopify:\/\/shop_images\/ECO_page_Plastics-1-3.jpg",
+              "fl_3_ovrly_txt": "RECYCLED PLASTICS",
+              "fl_3_content": "ALL HOLDEN CORD ADJUSTERS ARE MADE WITH RECYCLED PLASTIC.",
+              "fl_4_image": "shopify:\/\/shop_images\/ECO_page_Recy_Mats-1.jpg",
+              "fl_4_ovrly_txt": "RECYLED MATERIALS AND ECO DYEING",
+              "fl_4_content": "WHEN POSSIBLE, WE DO OUR BEST TO CHOOSE FULLY RECYCLED FABRICS AND DYEING PROCESSES THAT REQUIRE LESS WATER. THIS SEASON, WE'D LIKE TO HIGHLIGHT THAT ALL OF OUR JACKET AND PANT LININGS USE 100% RECYCLED POLYESTER.",
+              "fl_5_image": "shopify:\/\/shop_images\/DWR_SOLVENT_FREE_IMAGE-1.jpg",
+              "fl_5_ovrly_txt": "SOLVENT FREE DWR’S AND LAMINATES",
+              "fl_5_content": "ALL OF OUR TECHNICAL GARMENTS ARE CONSTRUCTED WITH SOLVENT-FREE LAMINATES AND TREATED WITH ECO FRIENDLY PFOA\/PFOS FREE DWR’S. THIS PROCESS REDUCES ALL CHEMICALS USED IN THE TRADITIONAL PROCESS AND IS SAFER FOR BOTH THE ENVIRONMENT AND OUR ENGINEERS AND TECHNICIANS.",
+              "fl_6_image": "shopify:\/\/shop_images\/Solar_office_pic-1.jpg",
+              "fl_6_ovrly_txt": "100% SOLAR OFFICE",
+              "fl_6_content": "HOLDEN IS OPERATED OUT OF OUR 100% SOLAR RUN OFFICE IN VENICE BEACH, CA.  ANY UNUSED ENERGY WE HAVE GOES BACK TO THE GRID.",
+              "fl_7_image": "",
+              "fl_7_ovrly_txt": "Overlay Text #7",
+              "fl_7_content": "",
+              "fl_8_image": "",
+              "fl_8_ovrly_txt": "Overlay Text #8",
+              "fl_8_content": "",
+              "fl_9_image": "",
+              "fl_9_ovrly_txt": "Overlay Text #9",
+              "fl_9_content": "",
+              "fl_10_image": "",
+              "fl_10_ovrly_txt": "Overlay Text #10",
+              "fl_10_content": "",
+              "fl_11_image": "",
+              "fl_11_ovrly_txt": "Overlay Text #11",
+              "fl_11_content": "",
+              "fl_12_image": "",
+              "fl_12_ovrly_txt": "Overlay Text #12",
+              "fl_12_content": ""
+            }
+          },
+          "1503795617956": {
+            "type": "imgCTA",
+            "settings": {
+              "imgCTA_grid_layout": "standard",
+              "imgCTA_frontpage_text_align": "left",
+              "imgCTA_1_image": "shopify:\/\/shop_images\/Collections_Mens-1_42aecdba-0eaf-4aaf-8a55-827c626a56ab.jpg",
+              "imgCTA_1_title": "The Men's Collection",
+              "imgCTA_1_text": "",
+              "imgCTA_1_link": "shopify:\/\/collections\/mens-fw-17-18-collection",
+              "imgCTA_1_button_label": "View all",
+              "imgCTA_2_image": "shopify:\/\/shop_images\/Collections_Womens-1_07c6ef29-a77a-4678-8509-cd547593b538.jpg",
+              "imgCTA_2_title": "The Women's Collection",
+              "imgCTA_2_text": "",
+              "imgCTA_2_link": "shopify:\/\/collections\/womens-fw-17-18-collection",
+              "imgCTA_2_button_label": "View all"
+            }
+          },
+          "1503795865395": {
+            "type": "video",
+            "settings": {
+              "vid_source": "vimeo",
+              "vid_aspect_ratio": "4:3",
+              "vid_autoplay": false,
+              "vid_autoloop": true,
+              "vid_video_dark_overlay": false,
+              "vid_video": "https:\/\/vimeo.com\/30101607",
+              "vid_mp4": "",
+              "vid_ogv": "",
+              "vid_image": "shopify:\/\/shop_images\/Eco_page_Top_Slider-1-5_b670fb5c-f17e-4014-8bbd-75479e58b873.jpg",
+              "vid_display_text_over_video": false,
+              "vid_title": "LEARN MORE ABOUT ECO FRIENDLIER",
+              "vid_subtext": "",
+              "vid_text_position": "center",
+              "vid_text_align": "center",
+              "vid_button_label": "Play Video",
+              "vid_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1503795086315",
+          "1503795128601",
+          "1503795472629",
+          "1503795565835",
+          "1503795721263",
+          "1503795617956",
+          "1503795865395"
+        ],
+        "settings": {}
+      },
+      "custom-2": {
+        "type": "custom-2",
+        "blocks": {
+          "1503796090545": {
+            "type": "imageText",
+            "settings": {
+              "image_stretch": true,
+              "image": "shopify:\/\/shop_images\/9_Fishtail_3_6e849423-c93c-4d46-800b-8af260a92ac3.jpg",
+              "title": "THE FISHTAIL JACKETS",
+              "subtext": "Elite performance integrated into an iconic style",
+              "text_position": "center",
+              "text_align": "center",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "1503796273812": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": false,
+              "frt_title": "PREMIUM JACKETS WITH MAXIMUM STYLE",
+              "frt_content": "Combining the latest outerwear technology with a progressive style and fit",
+              "frt_text_size": "featured_text",
+              "frt_text_alignment": "center",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1503796306608": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "",
+              "image_1": "shopify:\/\/shop_images\/Fishtail_page_2ok_fabric-1.jpg",
+              "title_1": "20K WATERPROOF STRETCH FABRIC FOR OPTIMAL MOBILITY",
+              "link_1": "",
+              "image_2": "shopify:\/\/shop_images\/Fishtail_page_featured_-1_327c9f2e-0fe2-49c1-b218-c86fd5375daf.jpg",
+              "title_2": "FULLY FEATURED INSIDE AND OUT",
+              "link_2": "",
+              "image_3": "shopify:\/\/shop_images\/Fishtail_page_iconic-1_3ab021e8-947c-4cb3-aac1-b0db478e8215.jpg",
+              "title_3": "CLASSIC AND ICONIC STYLE",
+              "link_3": ""
+            }
+          },
+          "1503796510870": {
+            "type": "imageText2",
+            "settings": {
+              "sec_image_stretch": true,
+              "sec_image": "shopify:\/\/shop_images\/Fishtail_page_Video-1_4c69706b-757e-447b-8066-bed3edf4c114.jpg",
+              "sec_title": "20k WATERPROOFING MEANS MORE FUN LONGER",
+              "sec_subtext": "",
+              "sec_text_position": "right",
+              "sec_text_align": "center",
+              "sec_button_label": "",
+              "sec_link": ""
+            }
+          },
+          "1503796461778": {
+            "type": "featProds",
+            "settings": {
+              "fps_title": "SHOP THE FISHTAILS",
+              "fps_1_subtitle": "WOMEN'S",
+              "fps_1_featured_product": "ws-fishtail-jacket-2",
+              "fps_2_subtitle": "MEN'S",
+              "fps_2_featured_product": "ms-m-51-fishtail-jacket-2"
+            }
+          },
+          "1506113328748": {
+            "type": "imageText",
+            "settings": {
+              "image_stretch": true,
+              "image": "shopify:\/\/shop_images\/Fishtails_Bottom_Image-1.jpg",
+              "title": "STYLE AND TECHNICAL FUNCTION FROM CITY TO PEAK",
+              "subtext": "",
+              "text_position": "right",
+              "text_align": "center",
+              "button_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1503796090545",
+          "1503796273812",
+          "1503796306608",
+          "1503796510870",
+          "1503796461778",
+          "1506113328748"
+        ],
+        "settings": {}
+      },
+      "custom-7": {
+        "type": "custom-7",
+        "blocks": {
+          "1505758767726": {
+            "type": "imageText",
+            "settings": {
+              "image_stretch": true,
+              "image": "shopify:\/\/shop_images\/About_us_pic-1_a52b17ba-e778-4152-b2df-37f34ac9dd31.jpg",
+              "title": "",
+              "subtext": "",
+              "text_position": "left",
+              "text_align": "left",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "1505759046377": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": false,
+              "frt_title": "Holden brings Timeless style to technical outerwear",
+              "frt_content": "",
+              "frt_text_size": "regular_text",
+              "frt_text_alignment": "center",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1505759296858": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": false,
+              "frt_title": "",
+              "frt_content": "Born in 2002, Holden is widely known to have redefined the technical outerwear market by innovating the combination of fashion, function and eco-conscious sensibility into an industry that valued performance above all else.",
+              "frt_text_size": "regular_text",
+              "frt_text_alignment": "align_left",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1505760155718": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": false,
+              "frt_title": "",
+              "frt_content": "Founded by professional snowboarder Mikey LeBlanc and designer Scott Zergebel with a mission to create products that are built on these values: Timeless Quality, functional style, versatility, tailored-fits, and eco-friendlier attributes.",
+              "frt_text_size": "regular_text",
+              "frt_text_alignment": "align_left",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1505760488256": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": false,
+              "frt_title": "",
+              "frt_content": "Since 2002, Holden has stood for Timeless Quality and substance. The original intent of bringing style to the harshest environments remains the primary inspiration.\nEvery piece of the 2017 Holden apparel and outerwear line embodies this unwavering clarity of design— a commitment to source the best possible materials, design for premium weatherproof function, and minimize environmental footprint.",
+              "frt_text_size": "regular_text",
+              "frt_text_alignment": "align_left",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1505920619405": {
+            "type": "imageText",
+            "settings": {
+              "image_stretch": true,
+              "image": "shopify:\/\/shop_images\/About_Us_Photo_at_bottom.jpg",
+              "title": "",
+              "subtext": "",
+              "text_position": "center",
+              "text_align": "left",
+              "button_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1505758767726",
+          "1505759046377",
+          "1505759296858",
+          "1505760155718",
+          "1505760488256",
+          "1505920619405"
+        ],
+        "settings": {}
+      },
+      "custom-5": {
+        "type": "custom-5",
+        "blocks": {
+          "1505779677095": {
+            "type": "imageText",
+            "settings": {
+              "image_stretch": true,
+              "image": "shopify:\/\/shop_images\/Explorer_Page_Top_Main_Image-1_copy_ab0d69c9-4938-4c7b-afab-cf8104898b52.jpg",
+              "title": "HOLDEN EXPLORERS",
+              "subtext": "We proudly support a team of excellent humans as they explore their passions in outdoor activities, artistic expression, and their pursuits of a “Life Well Led.” These individuals inspire us to get after it through their love of life. #foralifewellled",
+              "text_position": "left",
+              "text_align": "left",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "1505761172308": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Exporer_Image_Fredi_K-1.jpg",
+              "title_1": "FREDI KALBERMATTEN",
+              "link_1": "https:\/\/www.instagram.com\/frederik_kalbermatten\/",
+              "image_2": "shopify:\/\/shop_images\/Exporer_Image_Gray_Thompson-1.jpg",
+              "title_2": "GRAY THOMPSON",
+              "link_2": "https:\/\/www.instagram.com\/graythompson_\/",
+              "image_3": "shopify:\/\/shop_images\/Exporer_Image_Russell_Winfield-1_5cdada26-aee9-495e-acb8-0c1f8b4d708d.jpg",
+              "title_3": "RUSSELL WINFIELD",
+              "link_3": "https:\/\/www.instagram.com\/misterwinfield\/"
+            }
+          },
+          "1505761850755": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Exporer_Image_brendan_gerard-1.jpg",
+              "title_1": "Brendan Gerard",
+              "link_1": "https:\/\/www.instagram.com\/stuntdickgerry\/",
+              "image_2": "shopify:\/\/shop_images\/Exporer_Image_Curtis_Woodman.png",
+              "title_2": "Curtis Woodman",
+              "link_2": "https:\/\/www.instagram.com\/curtiswoodman\/",
+              "image_3": "shopify:\/\/shop_images\/Exporer_Image_Chad_otterstrom.png",
+              "title_3": "chad otterstrom",
+              "link_3": "https:\/\/www.instagram.com\/chadotterstrom\/"
+            }
+          },
+          "1506183252554": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Exporer_Image_Boody-1.jpg",
+              "title_1": "Boody",
+              "link_1": "",
+              "image_2": "shopify:\/\/shop_images\/Exporer_Image_Laura_Hadar-1.jpg",
+              "title_2": "Laura Hadar",
+              "link_2": "https:\/\/www.instagram.com\/laura.hadar\/",
+              "image_3": "shopify:\/\/shop_images\/Exporer_Image_Cale_Zima-1.jpg",
+              "title_3": "Cale Zima",
+              "link_3": "https:\/\/www.instagram.com\/calezima\/?hl=en"
+            }
+          },
+          "1505762849561": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Exporer_Image_Mike_Meru-1.png",
+              "title_1": "MIKE MERU",
+              "link_1": "https:\/\/www.instagram.com\/hukesnow\/",
+              "image_2": "shopify:\/\/shop_images\/Exporer_Image_Michelle_Salt.png",
+              "title_2": "Michelle Salt",
+              "link_2": "https:\/\/www.instagram.com\/parashredder\/",
+              "image_3": "shopify:\/\/shop_images\/Exporer_Image_Mikey_LeBlanc-1.jpg",
+              "title_3": "MIKEY LEBLANC",
+              "link_3": "https:\/\/www.instagram.com\/17is\/"
+            }
+          }
+        },
+        "block_order": [
+          "1505779677095",
+          "1505761172308",
+          "1505761850755",
+          "1506183252554",
+          "1505762849561"
+        ],
+        "settings": {}
+      },
+      "custom-4": {
+        "type": "custom-4",
+        "blocks": {
+          "1505763873600": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": false,
+              "frt_title": "HOLDEN INTERNATIONAL",
+              "frt_content": "We are proud to partner with the following distribution companies.  Please contact Holden or the company listed below that serves your area directly for more info on how to work with Holden.",
+              "frt_text_size": "featured_text",
+              "frt_text_alignment": "center",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1505764637839": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": false,
+              "frt_title": "",
+              "frt_content": "",
+              "frt_text_size": "featured_text",
+              "frt_text_alignment": "center",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1505764186458": {
+            "type": "imageText",
+            "settings": {
+              "image_stretch": false,
+              "image": "shopify:\/\/shop_images\/Intl_Dealers_Art_Web_a8d042a5-c899-47e7-a7a0-f57d56a7e910.jpg",
+              "title": "",
+              "subtext": "",
+              "text_position": "center",
+              "text_align": "left",
+              "button_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1505763873600",
+          "1505764637839",
+          "1505764186458"
+        ],
+        "settings": {}
+      },
+      "custom-3": {
+        "type": "custom-3",
+        "blocks": {
+          "1505764980054": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": true,
+              "frt_title": "PRESS",
+              "frt_content": "",
+              "frt_text_size": "featured_text",
+              "frt_text_alignment": "center",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1506092049262": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/eco-friendly-snowboard-gear-holden-redwood-down-jacket.jpg",
+              "title_1": "Snowboard Mag",
+              "link_1": "https:\/\/snowboardmag.com\/stories\/product-collection-2018-eco-friendly-snowboard-gear-for-the-tree-hugger-in-you",
+              "image_2": "shopify:\/\/shop_images\/Ski_Mag.jpg",
+              "title_2": "SKI MAGAZINE",
+              "link_2": "https:\/\/www.skimag.com\/gear\/style-combo-fabrics",
+              "image_3": "shopify:\/\/shop_images\/Vogue_Mag.jpg",
+              "title_3": "Vogue",
+              "link_3": "https:\/\/www.vogue.com\/article\/best-new-snowboarding-brands-ski-style"
+            }
+          },
+          "1505765679123": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/The_Take.jpg",
+              "title_1": "THE TAKE",
+              "link_1": "https:\/\/thetake.com\/product\/126280\/kanye-west-holden-x-spring-break-one-piece-ski-suit-keeping-up-with-the-kardashians-season-12-episode-7",
+              "image_2": "shopify:\/\/shop_images\/Freeskier.jpg",
+              "title_2": "FREESKIER MAGAZINE",
+              "link_2": "https:\/\/freeskier.com\/gear\/holden-hana-jacket-2016",
+              "image_3": "shopify:\/\/shop_images\/Shop_Eat_Surf.jpg",
+              "title_3": "SHOP EAT SURF",
+              "link_3": "http:\/\/www.looklive.com\/appearances\/justin-bieber-california-2016-03-02\/"
+            }
+          },
+          "1505765008655": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Mens_JOurnal.jpg",
+              "title_1": "MENS JOURNAL",
+              "link_1": "http:\/\/www.mensjournal.com\/gear\/collections\/14-gnarly-gifts-to-get-the-skier-in-your-life-w451946\/full-tilt-first-chair-10-ski-boots-w451960",
+              "image_2": "shopify:\/\/shop_images\/Best_Products.jpg",
+              "title_2": "bestProducts.com",
+              "link_2": "http:\/\/www.bestproducts.com\/fitness\/clothing\/g2185\/insulated-ski-snow-pants-trousers\/?src=socialflowFB",
+              "image_3": "shopify:\/\/shop_images\/gear-patrol_3741a9dc-9b1b-43fb-b664-13deb7d97412.jpg",
+              "title_3": "GEAR PATROL",
+              "link_3": "https:\/\/gearpatrol.com\/2016\/10\/19\/best-snowboard-gear\/"
+            }
+          },
+          "1505765123671": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Grind_TV.jpg",
+              "title_1": "GRINDTV.COM",
+              "link_1": "http:\/\/www.grindtv.com\/gear\/2016-gear-guide-best-mens-snowboarding\/#PT401OG0ydUZmZAg.97",
+              "image_2": "shopify:\/\/shop_images\/Transworld_Snow.jpg",
+              "title_2": "TRANSWORLD SNOWBOARDING",
+              "link_2": "http:\/\/snowboarding.transworld.net\/gear\/collected-gear-drastic-weather-differences\/#gpOKT7DPwjwwuXdp.97",
+              "image_3": "shopify:\/\/shop_images\/We_wore_what.jpg",
+              "title_3": "WE WORE WHAT",
+              "link_3": "http:\/\/weworewhat.com\/outfits\/aspen-looks\/"
+            }
+          },
+          "1505765218708": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Snowboard_Mag.jpg",
+              "title_1": "SNOWBOARD MAG",
+              "link_1": "https:\/\/snowboardmag.com\/stories\/provisions\/provisions-008-products-stoked-week",
+              "image_2": "shopify:\/\/shop_images\/Complex.jpg",
+              "title_2": "COMPLEX",
+              "link_2": "http:\/\/www.complex.com\/style\/2012\/10\/a-closer-look-at-the-stussy-x-holden-collaboration",
+              "image_3": "shopify:\/\/shop_images\/Gessato_1760c28b-4445-4305-9a99-810e609b2c3e.jpg",
+              "title_3": "GESSATO",
+              "link_3": "http:\/\/www.gessato.com\/premium-quality-gear-for-this-snowboarding-season\/"
+            }
+          },
+          "1505765319558": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Grind_TV_2.jpg",
+              "title_1": "GRINDTV.COM",
+              "link_1": "http:\/\/www.grindtv.com\/gear\/2016-gear-guide-the-best-in-womens-snowboarding\/#c2uatqVmLpif7m8w.97",
+              "image_2": "shopify:\/\/shop_images\/Entertainment_today.jpg",
+              "title_2": "ENTERTAINMENT TODAY",
+              "link_2": "http:\/\/entertainmenttoday.net\/nocat\/17825\/2016\/12\/santas-2016-list-for-mrs-claus-best-gifts-for-the-season\/",
+              "image_3": "shopify:\/\/shop_images\/Engearment_65e47f34-0536-440a-94bc-2df272c3f9b9.jpg",
+              "title_3": "ENGEARMENT",
+              "link_3": "http:\/\/engearment.com\/soft-goods\/outerwear\/holden-fatigue-snowboard-pants\/"
+            }
+          },
+          "1505765404200": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Whitelines_d4fa638b-63fb-4a04-bca0-1a9fcae52e3e.jpg",
+              "title_1": "WHITELINES",
+              "link_1": "https:\/\/whitelines.com\/snowboard-gear\/buying-guides\/best-snowboard-bib-pants.html",
+              "image_2": "shopify:\/\/shop_images\/Shop_Eat_Surf_8ba3fd0c-8784-4183-bcbc-bf9317761055.jpg",
+              "title_2": "SHOP EAT SURF",
+              "link_2": "https:\/\/www.shop-eat-surf.com\/content\/holden-welcomes-gray-thompson",
+              "image_3": "shopify:\/\/shop_images\/TWS_f1f521c8-b218-4460-a426-ef527be331e0.jpg",
+              "title_3": "TRANSWORLD SNOWBOARDING",
+              "link_3": "http:\/\/snowboarding.transworld.net\/brand\/holden\/?yr=2017#juMxm2Xql2c8MLyB.97"
+            }
+          },
+          "1505765505585": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Onboard_2f39ae0e-0188-4bf9-834b-61028ea6b668.jpg",
+              "title_1": "ONBOARD MAGAZINE",
+              "link_1": "https:\/\/onboardmag.com\/snowboard-gear\/gear-news-and-previews\/holden-launches-fall-2016-website-collection.html#F7zsqQeFEjSkXDXf.97",
+              "image_2": "shopify:\/\/shop_images\/Method_mag.jpg",
+              "title_2": "METHOD MAG",
+              "link_2": "https:\/\/www.methodmag.com\/news\/holden-welcomes-fredi-k-to-the-team.html",
+              "image_3": "shopify:\/\/shop_images\/Whiteline.jpg",
+              "title_3": "WHITELINES MAGAZINE",
+              "link_3": "https:\/\/whitelines.com\/snowboard-gear\/reviews\/best-buys\/jackets-pants-2016-2017.html"
+            }
+          },
+          "1505765579625": {
+            "type": "featPromo",
+            "settings": {
+              "featured_links_style": "cross",
+              "image_1": "shopify:\/\/shop_images\/Snowboard_mag_2.jpg",
+              "title_1": "SNOWBOARD MAG",
+              "link_1": "https:\/\/snowboardmag.com\/stories\/provisions\/provisions-003-products-stoked-week",
+              "image_2": "shopify:\/\/shop_images\/Whitelines_3.jpg",
+              "title_2": "WHITELINES Magazine",
+              "link_2": "https:\/\/whitelines.com\/snowboard-gear\/reviews\/best-buys\/best-denim-snowboard-pants-2015-2016.html",
+              "image_3": "shopify:\/\/shop_images\/Snowboarder_Magazine.jpg",
+              "title_3": "SNOWBOARDER MAGAZINE",
+              "link_3": "http:\/\/www.snowboarder.com\/featured\/dispatch-stussy-x-holden-collab\/"
+            }
+          }
+        },
+        "block_order": [
+          "1505764980054",
+          "1506092049262",
+          "1505765679123",
+          "1505765008655",
+          "1505765123671",
+          "1505765218708",
+          "1505765319558",
+          "1505765404200",
+          "1505765505585",
+          "1505765579625"
+        ],
+        "settings": {}
+      },
+      "contact-template": {
+        "type": "contact-template",
+        "settings": {
+          "contact_address": "",
+          "zoom_level": "12"
+        }
+      },
+      "custom-6": {
+        "type": "custom-6",
+        "blocks": {
+          "1505799521039": {
+            "type": "imageText",
+            "settings": {
+              "image_stretch": true,
+              "image": "shopify:\/\/shop_images\/Trackable_Down_Top_Image-1.jpg",
+              "title": "HOLDEN TRACKABLE DOWN:",
+              "subtext": "A responsible production process that delivers down we believe in and that you can believe in too",
+              "text_position": "right",
+              "text_align": "right",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "1505799912789": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": false,
+              "frt_title": "",
+              "frt_content": "ALL DOWN USED IN OUR JACKETS AND VESTS IS BOTH RDS CERTIFIED AND FULLY TRACKABLE",
+              "frt_text_size": "featured_text",
+              "frt_text_alignment": "center",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1506094028388": {
+            "type": "imageText2",
+            "settings": {
+              "sec_image_stretch": true,
+              "sec_image": "shopify:\/\/shop_images\/Down_Lower_Image.jpg",
+              "sec_title": "KNOWING IS CARING",
+              "sec_subtext": "Our responsible down can be traced from farm to factory. Ensuring animal welfare and product quality gives us peace of mind.",
+              "sec_text_position": "left",
+              "sec_text_align": "left",
+              "sec_button_label": "",
+              "sec_link": ""
+            }
+          },
+          "1505800349072": {
+            "type": "featColl",
+            "settings": {
+              "ftc_title": "SHOP TRACKABLE DOWN",
+              "ftc_custompage_collection": "down-jackets",
+              "ftc_custompage_products_per_row": "3",
+              "ftc_custompage_products_limit": "6"
+            }
+          },
+          "1506095110166": {
+            "type": "featText",
+            "settings": {
+              "frt_image": "",
+              "frt_reverse": false,
+              "frt_title": "LEARN MORE ABOUT HOLDEN TRACKABLE DOWN",
+              "frt_content": "",
+              "frt_text_size": "featured_text",
+              "frt_text_alignment": "center",
+              "frt_button_label": "",
+              "frt_button_link": ""
+            }
+          },
+          "1505886953996": {
+            "type": "featList",
+            "settings": {
+              "fl_1_image": "shopify:\/\/shop_images\/Down_Silver_Series2.png",
+              "fl_1_ovrly_txt": "",
+              "fl_1_content": "SILVER SERIES PREMIUM DOWN BRINGS THE LOOK, FEEL AND PERFORMANCE OF THE FINEST QUALITY DOWN TO A WIDE RANGE OF PRODUCTS. THEIR RESPONSIBLE SOURCING AND PROPRIETARY CLEANING PROCESS ALLOW US TO OFFER CONSUMERS COMFORT, KNOWING THAT THEIR PRODUCT IS FILLED WITH SOME THE BEST INSULATION ON AND FOR THE PLANET.",
+              "fl_2_image": "shopify:\/\/shop_images\/Trackable_Content_ART_FNL.jpg",
+              "fl_2_ovrly_txt": "CLEAR CONTENT",
+              "fl_2_content": "DOWN IS A BY-PRODUCT THAT REPRESENTS ONLY 2-10% THE VALUE OF THE DUCK OR GOOSE RAISED AS FOOD. AS SUCH, IT IS IMPOSSIBLE TO ACHIEVE A TRUE 100% PURE DOWN CLUSTER LOT\nWITHOUT ANY TRACE OF FIBER, FEATHERS OR OTHER MISCELLANEOUS MATERIAL. HERE IS A BREAKDOWN OF THE CONTENT FOUND IN HOLDEN DOWN AFTER TESTING: DOWN CLUSTER: 80.7% \/ DOWNFIBER: 8.2% \/ FEATHER FIBER: 2.3% \/ WATERFOWL: 7.9% \/ BROKENFEATHERS: 0.4% \/ QUILL: 0% \/ LANDFOWL: 0.3% \/ RESIDUE: 0.2%",
+              "fl_3_image": "shopify:\/\/shop_images\/Trackable_Down_QR_ART.jpg",
+              "fl_3_ovrly_txt": "",
+              "fl_3_content": "PREMIUM TRACEABLE DOWN IS MUCH MORE THAN JUST ABOUT WHERE IT CAME FROM, AND NOW YOU CAN LEARN ABOUT THE EXACT DOWN INSIDE YOUR JACKET AND WHAT MAKES PREMIUM DOWN PREMIUM. TRACK YOUR HOLDEN DOWN HERE FOR A MORE COMPREHENSIVE BREAKDOWN OF WHERE THE DOWN IN OUR STYLES COMES FROM AND WHAT ITS CONTENTS ARE. SIMPLY SCAN THIS QR CODE TO THE LEFT, OR VISIT WWW.TRACKMYDOWN.COM AND ENTER OUR LOT #: 0814L16FN1329",
+              "fl_4_image": "",
+              "fl_4_ovrly_txt": "Overlay Text #4",
+              "fl_4_content": "",
+              "fl_5_image": "",
+              "fl_5_ovrly_txt": "Overlay Text #5",
+              "fl_5_content": "",
+              "fl_6_image": "",
+              "fl_6_ovrly_txt": "Overlay Text #6",
+              "fl_6_content": "",
+              "fl_7_image": "",
+              "fl_7_ovrly_txt": "Overlay Text #7",
+              "fl_7_content": "",
+              "fl_8_image": "",
+              "fl_8_ovrly_txt": "Overlay Text #8",
+              "fl_8_content": "",
+              "fl_9_image": "",
+              "fl_9_ovrly_txt": "Overlay Text #9",
+              "fl_9_content": "",
+              "fl_10_image": "",
+              "fl_10_ovrly_txt": "Overlay Text #10",
+              "fl_10_content": "",
+              "fl_11_image": "",
+              "fl_11_ovrly_txt": "Overlay Text #11",
+              "fl_11_content": "",
+              "fl_12_image": "",
+              "fl_12_ovrly_txt": "Overlay Text #12",
+              "fl_12_content": ""
+            }
+          },
+          "1506111766415": {
+            "type": "imageText",
+            "settings": {
+              "image_stretch": true,
+              "image": "shopify:\/\/shop_images\/Trackable_Bottom_IMage-1_b2c3056e-2beb-4b15-87a7-c19bc6b29d0f.jpg",
+              "title": "",
+              "subtext": "We appreciate the need for goods that function and last, but also understand that every product made has an effect. We will continue to innovate and change for the sake of the planet and all things.",
+              "text_position": "left",
+              "text_align": "left",
+              "button_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1505799521039",
+          "1505799912789",
+          "1506094028388",
+          "1505800349072",
+          "1506095110166",
+          "1505886953996",
+          "1506111766415"
+        ],
+        "settings": {}
+      },
+      "product-details-template": {
+        "type": "product-details-template",
+        "settings": {
+          "product_breadcrumb": true,
+          "display_tags": false,
+          "display_type": false,
+          "display_vendor": false,
+          "display_collections": false,
+          "display_sku": false,
+          "display_social_buttons": true,
+          "product_description_position": "bottom",
           "product_images_position": "left",
           "set_product_height": false,
           "product_height": "500",
+          "display_related_products": true,
+          "products_per_row": "2",
+          "related_products_position": "below"
+        }
+      },
+      "custom-8": {
+        "type": "custom-8",
+        "settings": {}
+      },
+      "collection-banner-template": {
+        "type": "collection-banner-template",
+        "settings": {
+          "products_per_row": "3",
+          "pagination_limit": "24",
+          "collection_breadcrumb": true,
+          "display_collection_title": true,
+          "collection_tags": false,
+          "collection_sort": false,
           "toggle": false
         }
       }
     },
     "content_for_index": [
       "1482527966363",
-      "1482528346380",
       "1482528409773",
+      "1482528346380",
+      "1500752829494",
+      "1500752035890",
       "1482528454151",
       "1482528477927",
-      "1482527947534",
-      "1482528552957",
       "1482528636777"
     ]
   }

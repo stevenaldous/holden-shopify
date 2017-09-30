@@ -9,11 +9,17 @@
 {% endcapture %}
 
 <div itemtype="http://schema.org/ItemList" class="products">
+  {%- comment %}<locksmith:1ad5>{% endcomment -%}
+    {% assign locksmith_b6a2_forloop__size = 0 %}{% for product in products limit: limit %}{% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: product %}{% if locksmith_transparent %}{% assign locksmith_b6a2_forloop__size = locksmith_b6a2_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_b6a2_forloop__index = nil %}
+  {%- comment %}</locksmith:1ad5>{% endcomment -%}
   {% for product in products limit: limit %}
+    {%- comment %}<locksmith:2e87>{% endcomment -%}
+      {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: product, locksmith_subject_parent: products %}{% if locksmith_transparent %}{% if locksmith_b6a2_forloop__index == nil %}{% assign locksmith_b6a2_forloop__index = 1 %}{% assign locksmith_b6a2_forloop__index0 = 0 %}{% else %}{% assign locksmith_b6a2_forloop__index = locksmith_b6a2_forloop__index | plus: 1 %}{% assign locksmith_b6a2_forloop__index0 = locksmith_b6a2_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_b6a2_forloop__index == 1 %}{% assign locksmith_b6a2_forloop__first = true %}{% else %}{% assign locksmith_b6a2_forloop__first = false %}{% endif %}{% if locksmith_b6a2_forloop__index == locksmith_b6a2_forloop__size %}{% assign locksmith_b6a2_forloop__last = true %}{% else %}{% assign locksmith_b6a2_forloop__last = false %}{% endif %}{% assign locksmith_b6a2_forloop__rindex = locksmith_b6a2_forloop__size | minus: locksmith_b6a2_forloop__index | minus: 1 %}{% assign locksmith_b6a2_forloop__rindex0 = locksmith_b6a2_forloop__size | minus: locksmith_b6a2_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif %}
+    {%- comment %}</locksmith:2e87>{% endcomment -%}
     {% if product.id == skip_product.id or skip == true %}
       {% assign product_found = true %}
     {% else %}
-      {% if forloop.rindex0 == 0 and product_found == false and forloop.length != products.count and template != 'search' %}
+      {% if locksmith_b6a2_forloop__rindex0 == 0 and product_found == false and forloop.length != products.count and template != 'search' %}
         {% assign skip = true %}
       {% else %}
         {% include 'product-thumbnail', sidebar: sidebar %}

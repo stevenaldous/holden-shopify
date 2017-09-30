@@ -1,0 +1,149 @@
+{%- comment %}
+  Hey there! This snippet is managed by Locksmith (uselocksmith.com). You can
+  fiddle with what's below, but your changes will be reset the next time that
+  Locksmith interacts with your shop.
+
+  Last updated: Tue, 26 Sep 2017 00:51:41 +0000
+  Integration version: v4.24
+{% endcomment -%}
+
+{%assign _5=true%}{%assign _h=false%}{%assign _l=customer%}{%assign _9=shop%}{%capture locksmith_customer_register_form%}{%if _9.customer_accounts_enabled%}<script src="//cdn.shopify.com/s/assets/themes_support/shopify_common-040322ee69221c50a47032355f2f7e6cbae505567e2157d53dfb0a2e7701839c.js" type="text/javascript" data-via-locksmith="true"></script><script src="//cdn.shopify.com/s/assets/themes_support/customer_area-4beccea87758d91106a581ba89341d9b51842f6da79209258c8297239e950343.js" type="text/javascript" data-via-locksmith="true"></script>
+
+      <div class="sixteen columns clearfix collection_nav">
+  <h1 class="collection_title">{{'customer.register.title'|t}}</h1>
+</div>
+
+<div class="section clearfix">  
+  <div class="six columns offset-by-five">
+    <br class="clear" />
+    <div id="customer">
+      <!-- Create Customer -->
+      <div id="create-customer">{%form 'create_customer'%}{{form.errors|default_errors}}
+
+          <div id="first_name" class="clearfix large_form">
+            <label for="first_name" class="login">{{'customer.register.first_name'|t}}</label>
+            <input type="text" value="" name="customer[first_name]" id="first_name" class="large" size="30" />
+          </div>
+
+          <div id="last_name" class="clearfix large_form">
+            <label for="last_name" class="login">{{'customer.register.last_name'|t}}</label>
+            <input type="text" value="" name="customer[last_name]" id="last_name" class="large" size="30" />
+          </div>
+
+          <div id="email" class="clearfix large_form">
+            <label for="email" class="login">{{'customer.register.email'|t}}</label>
+            <input type="email" value="" name="customer[email]" id="email" class="large" size="30" />
+          </div>
+
+          <div id="password" class="clearfix large_form">
+            <label for="password" class="login">{{'customer.register.password'|t}}</label>
+            <input type="password" value="" name="customer[password]" id="password" class="large password" size="30" />
+          </div>
+
+          <div class="action_bottom">
+            <input class="btn action_button" type="submit" value="{{'customer.register.sign_up'|t}}" />
+            <p class="right" style="padding-top: 8px;">
+{{'customer.register.returning_customer_label'|t}}{{'customer.register.sign_in_html'|t|customer_login_link}}
+            </p>
+          </div>
+
+        <input type="hidden" id="register_return_to" name="return_to" value="" />{%endform%}</div><!-- /#create-customer -->
+    </div>
+  </div>
+</div>
+
+      <script type="text/javascript">
+        document.body.className = "customers-register feature_image";
+        
+        window.document.title = "Create Account - Holden Outerwear";
+
+        var returnTo = window.location.protocol + '//' + window.location.host + ('{{locksmith_path}}' || window.location.pathname) + window.location.search;
+
+        if (document.getElementsByName) {
+          var nodes = document.getElementsByName('return_to');
+          for (var i = 0; i < nodes.length; i++) {
+            nodes[i].value = '{{locksmith_path}}' || window.location.pathname;
+          }
+        } else {
+          document.getElementById('register_return_to').value = returnTo;
+        }
+      </script>{%endif%}{%endcapture%}{%capture locksmith_customer_login_form%}{%if _9.customer_accounts_enabled%}<script src="//cdn.shopify.com/s/assets/themes_support/shopify_common-040322ee69221c50a47032355f2f7e6cbae505567e2157d53dfb0a2e7701839c.js" type="text/javascript" data-via-locksmith="true"></script><script src="//cdn.shopify.com/s/assets/themes_support/customer_area-4beccea87758d91106a581ba89341d9b51842f6da79209258c8297239e950343.js" type="text/javascript" data-via-locksmith="true"></script>
+
+      <div class="sixteen columns clearfix collection_nav">
+  <h1 class="collection_title">{{'customer.login.title'|t}}</h1>
+</div>
+
+<div class="clearfix" id="customer">  
+  <div class="six offset-by-five columns" id="login_form">
+    <br class="clear" />{%form 'customer_login'%}{{form.errors|default_errors}}
+
+        <label for="customer_email" class="login">{{'customer.login.email'|t}}</label>
+        <input type="email" value="" name="customer[email]" id="customer_email" class="large" size="30"  autocorrect="off" autocapitalize="off" tabindex="1" />{%if form.password_needed%}{%comment%}
+          Customer Account Login
+{%endcomment%}<small class="right"><em><a href="#" onclick="showRecoverPasswordForm()">{{'customer.login.forgot_password'|t}}</a></em></small>
+        <label for="customer_password" class="login">{{'customer.login.password'|t}}</label>
+        <input type="password" value="" name="customer[password]" id="customer_password" class="large password" size="16" tabindex="2" />{%endif%}<input class="btn action_button" type="submit" value="{{'customer.login.sign_in'|t}}" style="margin-bottom: 5px !important" tabindex="3" />{%unless _9.checkout.guest_login%}<p class="right" style="padding-top: 8px;">
+{{'customer.login.new_customer_label'|t}}{{'customer.login.sign_up_html'|t|customer_register_link}}
+        </p>{%endunless%}<input type="hidden" id="login_checkout_url" name="checkout_url" value="" />{%endform%}{%if _9.checkout.guest_login%}<span class="or"> {{'customer.login.or'|t}} </span>{%form 'guest_login'%}<input class="guest_button" type="submit" value="{{'customer.login.guest_title_html'|t}}" />
+      <input type="hidden" id="login_checkout_url" name="checkout_url" value="" />{%endform%}{%endif%}</div>
+    
+    <div id="recover-password" style='display:none'>
+      <div class="six columns offset-by-five">
+    
+        <h4>{{'customer.recover_password.title'|t}}</h4>{%form 'recover_customer_password'%}{{form.errors|default_errors}}{%if form.posted_successfully?%}{%assign reset_success=_5%}{%endif%}<div id="recover_email" class="clearfix large_form">
+            <label for="email" class="large">{{'customer.recover_password.email'|t}}</label>
+            <input type="email" value="" size="30" name="email" id="recover-email" class="large" autocorrect="off" autocapitalize="off" />
+          </div>
+          
+          <p>
+            <em class="note">{{'customer.recover_password.subtext'|t}}</em>
+          </p>
+          
+          <div class="action_bottom">
+            <input class="btn action_button" type="submit" value="{{'customer.recover_password.submit'|t}}" />
+            <span class="note">{{'customer.recover_password.or'|t}} <a href="#" onclick="hideRecoverPasswordForm()">{{'customer.recover_password.cancel'|t}}</a></span>
+          </div>
+        <input type="hidden" id="login_checkout_url" name="checkout_url" value="" />{%endform%}</div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function showRecoverPasswordForm() {
+    document.getElementById('recover-password').style.display = 'block';
+    document.getElementById('login_form').style.display='none';
+    return false;
+  }
+
+  function hideRecoverPasswordForm() {
+    document.getElementById('recover-password').style.display = 'none';
+    document.getElementById('login_form').style.display = 'block';
+    return false;
+  }
+
+  if (window.location.hash == '#recover') { showRecoverPasswordForm() }
+
+  // reset_success is only true when the reset form is
+{%if reset_success%}
+    showRecoverPasswordForm();
+{%endif%}</script>
+
+      <script type="text/javascript">
+        document.body.className = "customers-login feature_image";
+        
+        window.document.title = "Account - Holden Outerwear";
+
+        var checkoutUrl = window.location.protocol + '//' + window.location.host + ('{{locksmith_path}}' || window.location.pathname) + window.location.search;
+
+        checkoutUrl = checkoutUrl.replace('/account/login', '/');
+
+        if (document.getElementsByName) {
+          var nodes = document.getElementsByName('checkout_url');
+          for (var i = 0; i < nodes.length; i++) {
+            nodes[i].value = checkoutUrl;
+          }
+        } else {
+          document.getElementById('login_checkout_url').value = checkoutUrl;
+        }
+      </script>{%endif%}{%endcapture%}{%assign customer_login_form=locksmith_customer_login_form%}{%assign customer_register_form=locksmith_customer_register_form%}{%unless locksmith_guest_content%}{%capture locksmith_guest_content%}<p><strong>This content is protected</strong> - please log in with your customer account to continue.</p>
+{{customer_login_form}}{%endcapture%}{%endunless%}{%unless locksmith_access_denied_content%}{%capture locksmith_access_denied_content%}{%if _l%}<p><strong>This content is protected, but it doesn't look like you have access.</strong> If you feel this is a mistake, please contact the store owner.</p>{%if locksmith_manual_lock%}<p><a href="#" onclick="window.parent.__locksmith_hide_frame(); return false;">&lsaquo; Back</a></p>{%endif%}{%else%}{{locksmith_guest_content}}{%endif%}{%endcapture%}{%endunless%}

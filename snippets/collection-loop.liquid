@@ -3,6 +3,10 @@
 <div class="featured_collections">
   {% for link in linklist.links %}
 
+    {%- comment %}<locksmith:0d1a>{% endcomment -%}
+      {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklist.links %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif %}
+    {%- comment %}</locksmith:0d1a>{% endcomment -%}
+
     {% comment %}
       This section supports linking to collections, products, pages, and blogs. It will use the first image found in the page content or blog article.
     {% endcomment %}

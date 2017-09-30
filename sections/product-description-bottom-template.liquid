@@ -117,8 +117,14 @@
            <p>
              <span class="label">{{ 'products.product.collections' | t }}:</span>
              <span>
+              {%- comment %}<locksmith:57ec>{% endcomment -%}
+                {% assign locksmith_c31c_forloop__size = 0 %}{% for col in product.collections %}{% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: col %}{% if locksmith_transparent %}{% assign locksmith_c31c_forloop__size = locksmith_c31c_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_c31c_forloop__index = nil %}
+              {%- comment %}</locksmith:57ec>{% endcomment -%}
               {% for col in product.collections %}
-                <a href="{{ col.url }}" title="{{ col.title }}">{{ col.title }}</a>{% unless forloop.last %},{% endunless %}
+                {%- comment %}<locksmith:597d>{% endcomment -%}
+                  {% include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: col, locksmith_subject_parent: product.collections %}{% if locksmith_transparent %}{% if locksmith_c31c_forloop__index == nil %}{% assign locksmith_c31c_forloop__index = 1 %}{% assign locksmith_c31c_forloop__index0 = 0 %}{% else %}{% assign locksmith_c31c_forloop__index = locksmith_c31c_forloop__index | plus: 1 %}{% assign locksmith_c31c_forloop__index0 = locksmith_c31c_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_c31c_forloop__index == 1 %}{% assign locksmith_c31c_forloop__first = true %}{% else %}{% assign locksmith_c31c_forloop__first = false %}{% endif %}{% if locksmith_c31c_forloop__index == locksmith_c31c_forloop__size %}{% assign locksmith_c31c_forloop__last = true %}{% else %}{% assign locksmith_c31c_forloop__last = false %}{% endif %}{% assign locksmith_c31c_forloop__rindex = locksmith_c31c_forloop__size | minus: locksmith_c31c_forloop__index | minus: 1 %}{% assign locksmith_c31c_forloop__rindex0 = locksmith_c31c_forloop__size | minus: locksmith_c31c_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif %}
+                {%- comment %}</locksmith:597d>{% endcomment -%}
+                <a href="{{ col.url }}" title="{{ col.title }}">{{ col.title }}</a>{% unless locksmith_c31c_forloop__last %},{% endunless %}
               {% endfor %}
             </span>
           </p>
