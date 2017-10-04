@@ -56,7 +56,7 @@ assets/gunmetal.jpg:
 assets/gunmetal.png:
   development: 2017-09-20T22:16:13-07:00   0e543db37d990aeb86f356b659194604
 assets/holden-styles.css:
-  development: 2017-10-03T20:17:07-07:00   d024ed09517bdc3f9f436200887b3987
+  development: 2017-10-03T20:32:19-07:00   3f12da5a935561e48be6cfea33244ec1
 assets/ie.css.liquid:
   development: 2017-06-25T17:03:05-07:00   0bb2ee978ed3096003c73c613e272527
 assets/jquery.cart.min.js:
@@ -230,7 +230,7 @@ snippets/locksmith-variables.liquid:
 snippets/locksmith.liquid:
   development: 2017-09-25T17:51:41-07:00   d3395976b849d1cd6cfface3afad1274
 snippets/newsletter-popup.liquid:
-  development: 2017-10-03T20:23:23-07:00   9da6371ae0840c6db57fc63bc3634ac1
+  development: 2017-10-03T20:36:49-07:00   20456683b4c97990e9d61a2c27da1564
 snippets/newsletter.liquid:
   development: 2017-08-18T10:26:32-07:00   e853dda9d380d0252dfe4a4d61edc73a
 snippets/page-multi-column.liquid:

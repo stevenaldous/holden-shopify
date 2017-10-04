@@ -1,16 +1,24 @@
 {% if settings.newsletter_popup %}
+   <!-- {% if settings.newsletter_popup_title != blank %} -->
+
+    <!-- {% endif %} -->
   <a id="newsletter" href="#target"></a>
   <span style="display: none;">
    <span id="target">
-    {% if settings.newsletter_popup_link != blank %}
-      <a href="{{ settings.newsletter_popup_link }}">
-    {% endif %}
-
     {% if settings.newsletter_popup_title != blank %}
       <p class="headline">
         {{ settings.newsletter_popup_title }}
       </p>
     {% endif %}
+    {% if settings.newsletter_popup_link != blank %}
+      <a href="{{ settings.newsletter_popup_link }}">
+    {% endif %}
+
+<!--     {% if settings.newsletter_popup_title != blank %}
+      <p class="headline">
+        {{ settings.newsletter_popup_title }}
+      </p>
+    {% endif %} -->
 
     {% if settings.newsletter_popup_image %}
       <p>
