@@ -1,4 +1,4 @@
-{% if settings.newsletter_popup %}   
+{% if settings.newsletter_popup %}
   <a id="newsletter" href="#target"></a>
   <span style="display: none;">
    <span id="target">
@@ -11,7 +11,7 @@
         {{ settings.newsletter_popup_title }}
       </p>
     {% endif %}
-    
+
     {% if settings.newsletter_popup_image %}
       <p>
         {{ settings.newsletter_popup_image | img_url: '580x', scale: 2 | img_tag: settings.newsletter_popup_image.alt, 'lazyload transition-in' }}
@@ -25,7 +25,13 @@
     {% if settings.newsletter_popup_link != blank %}
       </a>
     {% endif %}
-    
+
+    <div class="yo hide">
+      <a href="javascript:;" id="cool">Yeah Cool, Hit Me Up!</a>
+      <a href="javascript:;" id="close">No, I prefer to Freeze</a>
+    </div>
+
+
     {% if settings.newsletter_popup_form %}
       {% include 'newsletter' %}
     {% endif %}
@@ -36,8 +42,23 @@
     function openNewsletterPopup() {
       setTimeout( function() {
         $('#newsletter').fancybox({wrapCSS: 'newsletter_popup', padding: [40, 40, 40, 40], scrolling: false, maxWidth: {% if settings.newsletter_popup_max_width != blank %}{{ settings.newsletter_popup_max_width }}{% else %}600{% endif %}, minWidth: 250});
-        $('#newsletter').trigger('click'); 
-      }, 
+        $('#newsletter').trigger('click');
+
+         // Custom PopUp script
+        $('.newsletter').addClass('hide');
+        $('.yo').removeClass('hide');
+
+        $('#cool').on('click', function() {
+
+          $('.yo').addClass('hide');
+          $('.newsletter').removeClass('hide');
+        });
+
+        $('#close').on('click', function() {
+          console.log('HELLO');
+          $.fancybox.close();
+        });
+      },
       {% if settings.newsletter_popup_seconds != blank %}{{ settings.newsletter_popup_seconds }}{% else %}2{% endif %}*1000);
     }
 

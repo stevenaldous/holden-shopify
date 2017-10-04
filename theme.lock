@@ -38,7 +38,7 @@ assets/crimson.jpg:
 assets/crimson.png:
   development: 2017-09-20T22:15:56-07:00   2610f9500e49b6193f87c0fbfc1066e2
 assets/custom.js:
-  development: 2017-09-30T16:06:20-07:00   385feb4adcc838a386cf6980263da835
+  development: 2017-10-03T20:07:30-07:00   4e0f74ed3cb21d7c6e14e1e9b67526d2
 assets/earth.jpg:
   development: 2017-09-20T22:08:05-07:00   84b97f833f40a7bca375b587d9c2b68d
 assets/earth.png:
@@ -56,7 +56,7 @@ assets/gunmetal.jpg:
 assets/gunmetal.png:
   development: 2017-09-20T22:16:13-07:00   0e543db37d990aeb86f356b659194604
 assets/holden-styles.css:
-  development: 2017-09-30T14:37:17-07:00   1815d4d3d1c37de6d1310eb075604cf0
+  development: 2017-10-03T20:17:07-07:00   d024ed09517bdc3f9f436200887b3987
 assets/ie.css.liquid:
   development: 2017-06-25T17:03:05-07:00   0bb2ee978ed3096003c73c613e272527
 assets/jquery.cart.min.js:
@@ -117,10 +117,8 @@ config/settings_data.json:
   development: 2017-09-30T09:56:25-07:00   f7e84b90644ecb449ae366f0158dc508
 config/settings_schema.json:
   development: 2017-06-25T17:03:07-07:00   2af29b82b2ad2fbf69f591055a4f9512
-layout/theme-old.liquid:
-  development: 2017-09-30T14:43:11-07:00   90bdbac9700594ba8db7898e6812b730
 layout/theme.liquid:
-  development: 2017-09-30T15:58:42-07:00   cfc258d9c40f1d173a152e80a95c4ea9
+  development: 2017-10-03T19:37:17-07:00   e9619b00041f6c97339b3196bdf093e9
 locales/de.json:
   development: 2017-06-25T17:03:08-07:00   ed3dc7aa1b6e8ecd067d1ddc4cc4ca5d
 locales/en.default.json:
@@ -232,7 +230,7 @@ snippets/locksmith-variables.liquid:
 snippets/locksmith.liquid:
   development: 2017-09-25T17:51:41-07:00   d3395976b849d1cd6cfface3afad1274
 snippets/newsletter-popup.liquid:
-  development: 2017-06-25T17:03:07-07:00   a1d563ef25aff432c43e1281aef9cc08
+  development: 2017-10-03T20:23:23-07:00   9da6371ae0840c6db57fc63bc3634ac1
 snippets/newsletter.liquid:
   development: 2017-08-18T10:26:32-07:00   e853dda9d380d0252dfe4a4d61edc73a
 snippets/page-multi-column.liquid:

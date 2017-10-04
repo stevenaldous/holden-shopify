@@ -6,4 +6,13 @@ jQuery(document).ready(function($) {
       });
   }
 
+  // Custom PopUp script
+  $('.newsletter').addClass('hide');
+  $('.yo').removeClass('hide');
+
+  $('#yo-l').on('click', function() {
+    $('.yo').addClass('hide');
+    $('.newsletter').removeClass('hide');
+  });
+
 });

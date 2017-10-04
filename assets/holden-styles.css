@@ -448,6 +448,19 @@
   width: 100%;
   height: 100%;
 }
-
+/*******************************************************************************************
+*       Custom Pop UP Styles
+********************************************************************************************/
+#target .hide {
+  display: none;
+}
+#target .yo a {
+  display: block;
+  border: solid 1px grey;
+  width: 80%;
+  padding: 10px 0;
+  margin: 0 auto 10px auto;
+  text-transform: uppercase;
+}
 
 
