@@ -11,5 +11,7 @@
     {% endif %}
   {% endfor %}
 {% elsif settings.size_chart != blank %}
-  <a href="#size-chart" class="lightbox size_chart">{{ 'products.product.size_chart' | t }} <span class="icon-right-arrow"></span></a>
+  <div class="sc-wrap">
+    <a href="#size-chart" class="lightbox size_chart">{{ 'products.product.size_chart' | t }} <span class="icon-right-arrow"></span></a>
+  </div>
 {% endif %}

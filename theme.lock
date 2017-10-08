@@ -56,7 +56,7 @@ assets/gunmetal.jpg:
 assets/gunmetal.png:
   development: 2017-09-20T22:16:13-07:00   0e543db37d990aeb86f356b659194604
 assets/holden-styles.css:
-  development: 2017-10-03T20:32:19-07:00   3f12da5a935561e48be6cfea33244ec1
+  development: 2017-10-07T18:14:57-07:00   6bd830b8791ef1f8ea4e9ed2d481ba97
 assets/ie.css.liquid:
   development: 2017-06-25T17:03:05-07:00   0bb2ee978ed3096003c73c613e272527
 assets/jquery.cart.min.js:
@@ -118,7 +118,7 @@ config/settings_data.json:
 config/settings_schema.json:
   development: 2017-06-25T17:03:07-07:00   2af29b82b2ad2fbf69f591055a4f9512
 layout/theme.liquid:
-  development: 2017-10-03T19:37:17-07:00   e9619b00041f6c97339b3196bdf093e9
+  development: 2017-10-07T18:08:01-07:00   d678c2103c4800b870fda739d4b76dfc
 locales/de.json:
   development: 2017-06-25T17:03:08-07:00   ed3dc7aa1b6e8ecd067d1ddc4cc4ca5d
 locales/en.default.json:
@@ -200,7 +200,7 @@ sections/product-description-bottom-template.liquid:
 sections/product-details-template.liquid:
   development: 2017-09-25T17:52:18-07:00   4b667dcf20bad308c1aeb09cdbad11c8
 sections/product-template.liquid:
-  development: 2017-09-25T17:52:18-07:00   e31ee6938678378faedef79fb9bc8522
+  development: 2017-10-07T17:01:31-07:00   e31ee6938678378faedef79fb9bc8522
 sections/search-template.liquid:
   development: 2017-09-25T17:52:19-07:00   c7fa33ac1dc76c5d0ce2f2b2ef37c014
 sections/slideshow.liquid:
@@ -246,13 +246,13 @@ snippets/product-loop.liquid:
 snippets/product-notify-me.liquid:
   development: 2017-06-25T17:03:07-07:00   852fa67b1f1647db4d4e8b5f6b63a317
 snippets/product-swatch.liquid:
-  development: 2017-09-25T17:52:20-07:00   b53f5f3d7609dd582d8d6a502ab2d76a
+  development: 2017-10-07T17:28:07-07:00   b771567631a41925cb16c2fd055106d7
 snippets/product-thumbnail.liquid:
   development: 2017-08-09T18:21:18-07:00   831697ce9085a9978e6a8315d12c7923
 snippets/sidebar.liquid:
   development: 2017-09-25T17:52:20-07:00   e3416095509208e26dfcc9ffa6a01e5b
 snippets/size-chart-popup.liquid:
-  development: 2017-06-25T17:03:07-07:00   dade9d2f073664ceaac379f0ad06d785
+  development: 2017-10-07T17:50:42-07:00   d8e1d478ebc1b9842c9d07751f350ddd
 snippets/snippet_feat-list.liquid:
   development: 2017-09-24T20:50:14-07:00   1591cd347e7a92a163f2ef32f132fa18
 snippets/snippet_featured-collection.liquid:
