@@ -118,7 +118,7 @@ config/settings_data.json:
 config/settings_schema.json:
   development: 2017-06-25T17:03:07-07:00   2af29b82b2ad2fbf69f591055a4f9512
 layout/theme.liquid:
-  development: 2017-10-07T18:08:01-07:00   d678c2103c4800b870fda739d4b76dfc
+  development: 2017-10-11T08:48:24-07:00   a4d8926be02a98e4d92f1a302af47fdb
 locales/de.json:
   development: 2017-06-25T17:03:08-07:00   ed3dc7aa1b6e8ecd067d1ddc4cc4ca5d
 locales/en.default.json:
@@ -354,10 +354,10 @@ templates/page.wide.liquid:
 templates/password.liquid:
   development: 2017-08-18T17:51:05-07:00   074c8bc32921e3cddee36865a8ad0d0d
 templates/product.description-bottom.liquid:
-  development: 2017-06-25T17:03:08-07:00   109cedd2a2206ae3660ffd525e4058e0
+  development: 2017-10-11T08:51:42-07:00   078854e0b17a761dd2a0e78e4db24def
 templates/product.details.liquid:
-  development: 2017-06-25T17:03:08-07:00   a0ce8c619b7804015ddf7d062b6ab8a2
+  development: 2017-10-11T08:51:48-07:00   44c4032bd6e8b5ca6468f3d6d3dcec16
 templates/product.liquid:
-  development: 2017-06-25T17:03:08-07:00   8dc0a5ff5551ec620d64c92ba21689d8
+  development: 2017-10-11T08:51:45-07:00   225d629aec2beb33889cec54020d6b3e
 templates/search.liquid:
   development: 2017-06-25T17:03:08-07:00   d8bfdd344b4a35a7ba9c6efc1c870203
